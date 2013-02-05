@@ -1,0 +1,103 @@
+com.flutesa.brainword.BrainWord -> com.flutesa.brainword.BrainWord:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void access$0(com.flutesa.brainword.BrainWord,int) -> a
+com.flutesa.brainword.BrainWord$1 -> com.flutesa.brainword.a:
+    com.flutesa.brainword.BrainWord this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.BrainWordActivity -> com.flutesa.brainword.BrainWordActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.flutesa.brainword.Cards -> com.flutesa.brainword.Cards:
+    android.database.Cursor mCursor -> c
+    android.widget.TextView tWord -> a
+    android.widget.TextView tTranslate -> b
+    java.lang.String[] mContent -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    android.database.Cursor access$0(com.flutesa.brainword.Cards) -> a
+com.flutesa.brainword.Cards$1 -> com.flutesa.brainword.b:
+    com.flutesa.brainword.Cards this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.flutesa.brainword.Cards$2 -> com.flutesa.brainword.c:
+    com.flutesa.brainword.Cards this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.flutesa.brainword.ListAct -> com.flutesa.brainword.ListAct:
+    android.database.Cursor mCursor -> a
+    android.widget.ListAdapter mAdapter -> b
+    java.lang.String[] mContent -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.flutesa.brainword.ListAct) -> a
+    void access$1(com.flutesa.brainword.ListAct,long) -> a
+    void access$2(com.flutesa.brainword.ListAct,long,int) -> a
+    android.database.Cursor access$3(com.flutesa.brainword.ListAct) -> b
+com.flutesa.brainword.ListAct$1 -> com.flutesa.brainword.d:
+    com.flutesa.brainword.ListAct this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.flutesa.brainword.ListAct$2 -> com.flutesa.brainword.e:
+    com.flutesa.brainword.ListAct this$0 -> a
+    boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
+com.flutesa.brainword.ListAct$3 -> com.flutesa.brainword.f:
+    com.flutesa.brainword.ListAct this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.flutesa.brainword.ListAct$4 -> com.flutesa.brainword.g:
+    com.flutesa.brainword.ListAct this$0 -> a
+    android.widget.EditText val$textWord -> b
+    android.widget.EditText val$textTranslate -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListAct$5 -> com.flutesa.brainword.h:
+    com.flutesa.brainword.ListAct this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListAct$6 -> com.flutesa.brainword.i:
+    com.flutesa.brainword.ListAct this$0 -> a
+    android.widget.EditText val$textWord -> b
+    android.widget.EditText val$textTranslate -> c
+    long val$rowId -> d
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListAct$7 -> com.flutesa.brainword.j:
+    com.flutesa.brainword.ListAct this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListAct$8 -> com.flutesa.brainword.k:
+    com.flutesa.brainword.ListAct this$0 -> a
+    long val$rowId -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListAct$9 -> com.flutesa.brainword.l:
+    com.flutesa.brainword.ListAct this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListToast -> com.flutesa.brainword.ListToast:
+    android.database.Cursor mCursor -> a
+    android.widget.ListAdapter mAdapter -> b
+    java.lang.String[] mContent -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.flutesa.brainword.ListToast,long) -> a
+    void access$1$42ca2980(com.flutesa.brainword.ListToast,int) -> a
+    void access$2$42ca2980(com.flutesa.brainword.ListToast,int) -> b
+    android.database.Cursor access$3(com.flutesa.brainword.ListToast) -> a
+com.flutesa.brainword.ListToast$1 -> com.flutesa.brainword.m:
+    com.flutesa.brainword.ListToast this$0 -> a
+    boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
+com.flutesa.brainword.ListToast$2 -> com.flutesa.brainword.n:
+    com.flutesa.brainword.ListToast this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.flutesa.brainword.ListToast$3 -> com.flutesa.brainword.o:
+    com.flutesa.brainword.ListToast this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.flutesa.brainword.ListToast$4 -> com.flutesa.brainword.p:
+    com.flutesa.brainword.ListToast this$0 -> a
+    long val$rowId -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.ListToast$5 -> com.flutesa.brainword.q:
+    com.flutesa.brainword.ListToast this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.flutesa.brainword.WordDbHelper -> com.flutesa.brainword.r:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.flutesa.brainword.WordProvider -> com.flutesa.brainword.WordProvider:
+    android.net.Uri CONTENT_URI -> a
+    android.content.UriMatcher mUriMatcher -> b
+    java.util.HashMap mContactMap -> c
+    android.database.sqlite.SQLiteDatabase db -> d
+    boolean onCreate() -> onCreate
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+    java.lang.String getType(android.net.Uri) -> getType

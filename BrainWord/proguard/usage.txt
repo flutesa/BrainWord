@@ -1,0 +1,25 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.flutesa.brainword.BuildConfig
+com.flutesa.brainword.Cards:
+    android.view.View card
+com.flutesa.brainword.ListToast:
+    public static final java.lang.String KEY_DIRECTION
+    public static final int DIRECTION_WT
+    public static final int DIRECTION_TW
+com.flutesa.brainword.R
+com.flutesa.brainword.R$array
+com.flutesa.brainword.R$attr
+com.flutesa.brainword.R$drawable
+com.flutesa.brainword.R$id
+com.flutesa.brainword.R$layout
+com.flutesa.brainword.R$string
+com.flutesa.brainword.WordDbHelper:
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String WORD
+    public static final java.lang.String TRANSLATE
+com.flutesa.brainword.WordProvider:
+    public static final java.lang.String DB_WORDS
+    public static final int URI_CODE
+    public static final int URI_CODE_ID
+    50:50:public java.lang.String getDbName()

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrainWord</string>
+    <string name="app_cards">BrainWord</string>
+    <string name="app_list">BrainWord</string>
+    <string name="app_listtoast">BrainWord</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_cards">Cards</string>
+    <string name="btn_listview">Words list</string>
+    <string name="btn_listact">Edit word list</string>
+    <string name="direct_wt">word - translate</string>
+    <string name="direct_tw">translate - word</string>
+    <string name="title_app">BrainWord!</string>
+    <string name="title_app_descr">learn words easy</string>
+    <string name="title_add">Add new word</string>
+    <string name="title_edit">Edit word</string>
+    <string name="title_delete">Delete this word?</string>
+    <string name="title_dialog">Select direction</string>
+    <string name="menu_add">Add word</string>
+    <string name="menu_main">BrainWord!</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_help">Help</string>    
+    <string name="menu_about">About</string>
+    <string name="about">About this application</string>
+
+</resources>

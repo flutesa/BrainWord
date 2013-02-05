@@ -1,0 +1,4857 @@
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/BrainWord
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.flutesa.brainword.BrainWord extends android.app.Activity
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 102):
+  + Integer [2130903045]
+  + Integer [2130968576]
+  + Integer [2131034128]
+  + Integer [2131099655]
+  + Integer [2131099656]
+  + Integer [2131099657]
+  + String [com.flutesa.brainword.direction]
+  + Class [android/app/Activity]
+  + Class [android/app/AlertDialog$Builder]
+  + Class [android/content/Intent]
+  + Class [android/view/View]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/view/Window]
+  + Class [com/flutesa/brainword/BrainWord]
+  + Class [com/flutesa/brainword/Cards]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/ListToast]
+  + Class [com/flutesa/brainword/a]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+  + Methodref [android/app/AlertDialog$Builder.setItems (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+  + Methodref [android/view/View.getId ()I]
+  + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/view/Window.setFlags (II)V]
+  + Methodref [com/flutesa/brainword/BrainWord.findViewById (I)Landroid/view/View;]
+  + Methodref [com/flutesa/brainword/BrainWord.getWindow ()Landroid/view/Window;]
+  + Methodref [com/flutesa/brainword/BrainWord.requestWindowFeature (I)Z]
+  + Methodref [com/flutesa/brainword/BrainWord.setContentView (I)V]
+  + Methodref [com/flutesa/brainword/BrainWord.startActivity (Landroid/content/Intent;)V]
+  + Methodref [com/flutesa/brainword/a.<init> (Lcom/flutesa/brainword/BrainWord;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/BrainWord;)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getId ()I]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setFlags (II)V]
+  + NameAndType [setItems (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setTitle (I)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [show ()Landroid/app/AlertDialog;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(II)V]
+  + Utf8 [(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/flutesa/brainword/BrainWord;)V]
+  + Utf8 [(Lcom/flutesa/brainword/BrainWord;I)V]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/Intent;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/AlertDialog$Builder]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/view/Window]
+  + Utf8 [com.flutesa.brainword.direction]
+  + Utf8 [com/flutesa/brainword/BrainWord]
+  + Utf8 [com/flutesa/brainword/Cards]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/ListToast]
+  + Utf8 [com/flutesa/brainword/a]
+  + Utf8 [findViewById]
+  + Utf8 [getId]
+  + Utf8 [getWindow]
+  + Utf8 [onClick]
+  + Utf8 [onCreate]
+  + Utf8 [putExtra]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setContentView]
+  + Utf8 [setFlags]
+  + Utf8 [setItems]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setTitle]
+  + Utf8 [show]
+  + Utf8 [startActivity]
+
+Fields (count = 0):
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public BrainWord()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 61, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] invokevirtual #31
+        + Methodref [com/flutesa/brainword/BrainWord.getWindow ()Landroid/view/Window;]
+      [9] sipush 1024
+      [12] sipush 1024
+      [15] invokevirtual #29
+        + Methodref [android/view/Window.setFlags (II)V]
+      [18] aload_0 v0
+      [19] iconst_1
+      [20] invokevirtual #32
+        + Methodref [com/flutesa/brainword/BrainWord.requestWindowFeature (I)Z]
+      [23] pop
+      [24] aload_0 v0
+      [25] ldc #1
+        + Integer [2130903045]
+      [27] invokevirtual #33
+        + Methodref [com/flutesa/brainword/BrainWord.setContentView (I)V]
+      [30] aload_0 v0
+      [31] ldc #4
+        + Integer [2131099655]
+      [33] invokevirtual #30
+        + Methodref [com/flutesa/brainword/BrainWord.findViewById (I)Landroid/view/View;]
+      [36] aload_0 v0
+      [37] invokevirtual #28
+        + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [40] aload_0 v0
+      [41] ldc #6
+        + Integer [2131099657]
+      [43] invokevirtual #30
+        + Methodref [com/flutesa/brainword/BrainWord.findViewById (I)Landroid/view/View;]
+      [46] aload_0 v0
+      [47] invokevirtual #28
+        + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [50] aload_0 v0
+      [51] ldc #5
+        + Integer [2131099656]
+      [53] invokevirtual #30
+        + Methodref [com/flutesa/brainword/BrainWord.findViewById (I)Landroid/view/View;]
+      [56] aload_0 v0
+      [57] invokevirtual #28
+        + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [60] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 99, locals = 2, stack = 5):
+      [0] aload_1 v1
+      [1] invokevirtual #27
+        + Methodref [android/view/View.getId ()I]
+      [4] tableswitch (3 offsets, default=94) (target=98)
+        2131099655: offset = 28, target = 32
+        2131099656: offset = 45, target = 49
+        2131099657: offset = 78, target = 82
+        default: offset = 94, target = 98
+      [32] new #10
+        + Class [android/content/Intent]
+      [35] dup
+      [36] aload_0 v0
+      [37] ldc #15
+        + Class [com/flutesa/brainword/Cards]
+      [39] invokespecial #25
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [42] astore_1 v1
+      [43] aload_0 v0
+      [44] aload_1 v1
+      [45] invokevirtual #34
+        + Methodref [com/flutesa/brainword/BrainWord.startActivity (Landroid/content/Intent;)V]
+      [48] return
+      [49] aload_0 v0
+      [50] astore_1 v1
+      [51] new #9
+        + Class [android/app/AlertDialog$Builder]
+      [54] dup
+      [55] aload_1 v1
+      [56] invokespecial #21
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [59] ldc #3
+        + Integer [2131034128]
+      [61] invokevirtual #23
+        + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+      [64] ldc #2
+        + Integer [2130968576]
+      [66] new #18
+        + Class [com/flutesa/brainword/a]
+      [69] dup
+      [70] aload_1 v1
+      [71] invokespecial #35
+        + Methodref [com/flutesa/brainword/a.<init> (Lcom/flutesa/brainword/BrainWord;)V]
+      [74] invokevirtual #22
+        + Methodref [android/app/AlertDialog$Builder.setItems (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [77] invokevirtual #24
+        + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+      [80] pop
+      [81] return
+      [82] new #10
+        + Class [android/content/Intent]
+      [85] dup
+      [86] aload_0 v0
+      [87] ldc #16
+        + Class [com/flutesa/brainword/ListAct]
+      [89] invokespecial #25
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [92] astore_1 v1
+      [93] aload_0 v0
+      [94] aload_1 v1
+      [95] invokevirtual #34
+        + Methodref [com/flutesa/brainword/BrainWord.startActivity (Landroid/content/Intent;)V]
+      [98] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [32] Var: ..., Stack: (empty)
+        - [49] Var: ..., Stack: (empty)
+        - [82] Var: ..., Stack: (empty)
+        - [98] Var: ..., Stack: (empty)
+  + Method:       a(Lcom/flutesa/brainword/BrainWord;I)V
+    Access flags: 0x1008
+      = static synthetic void a(com.flutesa.brainword.BrainWord,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 25, locals = 3, stack = 4):
+      [0] new #10
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #17
+        + Class [com/flutesa/brainword/ListToast]
+      [7] invokespecial #25
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] dup
+      [11] astore_2 v2
+      [12] ldc #7
+        + String [com.flutesa.brainword.direction]
+      [14] iload_1 v1
+      [15] invokevirtual #26
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+      [18] pop
+      [19] aload_0 v0
+      [20] aload_2 v2
+      [21] invokevirtual #34
+        + Methodref [com/flutesa/brainword/BrainWord.startActivity (Landroid/content/Intent;)V]
+      [24] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/flutesa/brainword/BrainWord]
+  + Class [com/flutesa/brainword/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/a.a Lcom/flutesa/brainword/BrainWord;]
+  + Methodref [com/flutesa/brainword/BrainWord.a (Lcom/flutesa/brainword/BrainWord;I)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/BrainWord;I)V]
+  + NameAndType [a Lcom/flutesa/brainword/BrainWord;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/flutesa/brainword/BrainWord;)V]
+  + Utf8 [(Lcom/flutesa/brainword/BrainWord;I)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/BrainWord;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [com/flutesa/brainword/BrainWord]
+  + Utf8 [com/flutesa/brainword/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/BrainWord;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.BrainWord a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/BrainWord;)V
+    Access flags: 0x0
+      = a(com.flutesa.brainword.BrainWord)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/a.a Lcom/flutesa/brainword/BrainWord;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/a.a Lcom/flutesa/brainword/BrainWord;]
+      [4] iload_2 v2
+      [5] invokestatic #6
+        + Methodref [com/flutesa/brainword/BrainWord.a (Lcom/flutesa/brainword/BrainWord;I)V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/BrainWordActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.flutesa.brainword.BrainWordActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 33):
+  + Integer [2130903045]
+  + Class [android/app/Activity]
+  + Class [android/view/Window]
+  + Class [com/flutesa/brainword/BrainWordActivity]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/view/Window.setFlags (II)V]
+  + Methodref [com/flutesa/brainword/BrainWordActivity.getWindow ()Landroid/view/Window;]
+  + Methodref [com/flutesa/brainword/BrainWordActivity.requestWindowFeature (I)Z]
+  + Methodref [com/flutesa/brainword/BrainWordActivity.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setFlags (II)V]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(II)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/Window]
+  + Utf8 [com/flutesa/brainword/BrainWordActivity]
+  + Utf8 [getWindow]
+  + Utf8 [onCreate]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setContentView]
+  + Utf8 [setFlags]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public BrainWordActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #5
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #6
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] invokevirtual #8
+        + Methodref [com/flutesa/brainword/BrainWordActivity.getWindow ()Landroid/view/Window;]
+      [9] sipush 1024
+      [12] sipush 1024
+      [15] invokevirtual #7
+        + Methodref [android/view/Window.setFlags (II)V]
+      [18] aload_0 v0
+      [19] iconst_1
+      [20] invokevirtual #9
+        + Methodref [com/flutesa/brainword/BrainWordActivity.requestWindowFeature (I)Z]
+      [23] pop
+      [24] aload_0 v0
+      [25] ldc #1
+        + Integer [2130903045]
+      [27] invokevirtual #10
+        + Methodref [com/flutesa/brainword/BrainWordActivity.setContentView (I)V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/Cards
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.flutesa.brainword.Cards extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 101):
+  + Integer [2130903041]
+  + Integer [2131099649]
+  + Integer [2131099650]
+  + String [_id]
+  + String [translate]
+  + String [word]
+  + Class [android/app/Activity]
+  + Class [android/database/Cursor]
+  + Class [android/view/Window]
+  + Class [android/widget/TextView]
+  + Class [com/flutesa/brainword/Cards]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/b]
+  + Class [com/flutesa/brainword/c]
+  + Class [java/lang/String]
+  + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+  + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+  + Fieldref [com/flutesa/brainword/Cards.c Landroid/database/Cursor;]
+  + Fieldref [com/flutesa/brainword/Cards.d [Ljava/lang/String;]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/view/Window.setFlags (II)V]
+  + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/flutesa/brainword/Cards.findViewById (I)Landroid/view/View;]
+  + Methodref [com/flutesa/brainword/Cards.getWindow ()Landroid/view/Window;]
+  + Methodref [com/flutesa/brainword/Cards.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/Cards.requestWindowFeature (I)Z]
+  + Methodref [com/flutesa/brainword/Cards.setContentView (I)V]
+  + Methodref [com/flutesa/brainword/b.<init> (Lcom/flutesa/brainword/Cards;)V]
+  + Methodref [com/flutesa/brainword/c.<init> (Lcom/flutesa/brainword/Cards;)V]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/Cards;)V]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [b Landroid/widget/TextView;]
+  + NameAndType [c Landroid/database/Cursor;]
+  + NameAndType [d [Ljava/lang/String;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [moveToFirst ()Z]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setFlags (II)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(II)V]
+  + Utf8 [(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/Cards;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/database/Cursor;]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [_id]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/view/Window]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/flutesa/brainword/Cards]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/b]
+  + Utf8 [com/flutesa/brainword/c]
+  + Utf8 [d]
+  + Utf8 [findViewById]
+  + Utf8 [getString]
+  + Utf8 [getWindow]
+  + Utf8 [java/lang/String]
+  + Utf8 [managedQuery]
+  + Utf8 [moveToFirst]
+  + Utf8 [onCreate]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setContentView]
+  + Utf8 [setFlags]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setText]
+  + Utf8 [translate]
+  + Utf8 [word]
+
+Fields (count = 4):
+  + Field:        c Landroid/database/Cursor;
+    Access flags: 0x2
+      = private android.database.Cursor c
+  + Field:        a Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView a
+  + Field:        b Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView b
+  + Field:        d [Ljava/lang/String;
+    Access flags: 0x1a
+      = private static final java.lang.String[] d
+
+Methods (count = 4):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 0, stack = 4):
+      [0] iconst_3
+      [1] anewarray #15
+        + Class [java/lang/String]
+      [4] dup
+      [5] iconst_0
+      [6] ldc #4
+        + String [_id]
+      [8] aastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #6
+        + String [word]
+      [13] aastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #5
+        + String [translate]
+      [18] aastore
+      [19] putstatic #19
+        + Fieldref [com/flutesa/brainword/Cards.d [Ljava/lang/String;]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Cards()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 148, locals = 2, stack = 7):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #22
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] invokevirtual #27
+        + Methodref [com/flutesa/brainword/Cards.getWindow ()Landroid/view/Window;]
+      [9] sipush 1024
+      [12] sipush 1024
+      [15] invokevirtual #23
+        + Methodref [android/view/Window.setFlags (II)V]
+      [18] aload_0 v0
+      [19] iconst_1
+      [20] invokevirtual #29
+        + Methodref [com/flutesa/brainword/Cards.requestWindowFeature (I)Z]
+      [23] pop
+      [24] aload_0 v0
+      [25] ldc #1
+        + Integer [2130903041]
+      [27] invokevirtual #30
+        + Methodref [com/flutesa/brainword/Cards.setContentView (I)V]
+      [30] aload_0 v0
+      [31] aload_0 v0
+      [32] ldc #2
+        + Integer [2131099649]
+      [34] invokevirtual #26
+        + Methodref [com/flutesa/brainword/Cards.findViewById (I)Landroid/view/View;]
+      [37] checkcast #10
+        + Class [android/widget/TextView]
+      [40] putfield #16
+        + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+      [43] aload_0 v0
+      [44] aload_0 v0
+      [45] ldc #3
+        + Integer [2131099650]
+      [47] invokevirtual #26
+        + Methodref [com/flutesa/brainword/Cards.findViewById (I)Landroid/view/View;]
+      [50] checkcast #10
+        + Class [android/widget/TextView]
+      [53] putfield #17
+        + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+      [56] aload_0 v0
+      [57] aload_0 v0
+      [58] getstatic #20
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [61] getstatic #19
+        + Fieldref [com/flutesa/brainword/Cards.d [Ljava/lang/String;]
+      [64] aconst_null
+      [65] aconst_null
+      [66] aconst_null
+      [67] invokevirtual #28
+        + Methodref [com/flutesa/brainword/Cards.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+      [70] putfield #18
+        + Fieldref [com/flutesa/brainword/Cards.c Landroid/database/Cursor;]
+      [73] aload_0 v0
+      [74] getfield #18
+        + Fieldref [com/flutesa/brainword/Cards.c Landroid/database/Cursor;]
+      [77] invokeinterface #34
+        + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
+      [82] pop
+      [83] aload_0 v0
+      [84] getfield #16
+        + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+      [87] aload_0 v0
+      [88] getfield #18
+        + Fieldref [com/flutesa/brainword/Cards.c Landroid/database/Cursor;]
+      [91] iconst_1
+      [92] invokeinterface #33
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [97] invokevirtual #25
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [100] aload_0 v0
+      [101] getfield #17
+        + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+      [104] aload_0 v0
+      [105] getfield #18
+        + Fieldref [com/flutesa/brainword/Cards.c Landroid/database/Cursor;]
+      [108] iconst_2
+      [109] invokeinterface #33
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [114] invokevirtual #25
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [117] aload_0 v0
+      [118] getfield #16
+        + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+      [121] new #13
+        + Class [com/flutesa/brainword/b]
+      [124] dup
+      [125] aload_0 v0
+      [126] invokespecial #31
+        + Methodref [com/flutesa/brainword/b.<init> (Lcom/flutesa/brainword/Cards;)V]
+      [129] invokevirtual #24
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [132] aload_0 v0
+      [133] getfield #17
+        + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+      [136] new #14
+        + Class [com/flutesa/brainword/c]
+      [139] dup
+      [140] aload_0 v0
+      [141] invokespecial #32
+        + Methodref [com/flutesa/brainword/c.<init> (Lcom/flutesa/brainword/Cards;)V]
+      [144] invokevirtual #24
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [147] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;
+    Access flags: 0x1008
+      = static synthetic android.database.Cursor a(com.flutesa.brainword.Cards)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #18
+        + Fieldref [com/flutesa/brainword/Cards.c Landroid/database/Cursor;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 53):
+  + Class [android/database/Cursor]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/TextView]
+  + Class [com/flutesa/brainword/Cards]
+  + Class [com/flutesa/brainword/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+  + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+  + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.isFirst ()Z]
+  + InterfaceMethodref [android/database/Cursor.moveToLast ()Z]
+  + InterfaceMethodref [android/database/Cursor.moveToPrevious ()Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [a Lcom/flutesa/brainword/Cards;]
+  + NameAndType [b Landroid/widget/TextView;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [isFirst ()Z]
+  + NameAndType [moveToLast ()Z]
+  + NameAndType [moveToPrevious ()Z]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/Cards;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/flutesa/brainword/Cards;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [com/flutesa/brainword/Cards]
+  + Utf8 [com/flutesa/brainword/b]
+  + Utf8 [getString]
+  + Utf8 [isFirst]
+  + Utf8 [java/lang/Object]
+  + Utf8 [moveToLast]
+  + Utf8 [moveToPrevious]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/Cards;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.Cards a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/Cards;)V
+    Access flags: 0x0
+      = b(com.flutesa.brainword.Cards)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 135, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [4] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [7] invokeinterface #14
+        + InterfaceMethodref [android/database/Cursor.isFirst ()Z]
+      [12] ifeq +63 (target=75)
+      [15] aload_0 v0
+      [16] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [19] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [22] invokeinterface #15
+        + InterfaceMethodref [android/database/Cursor.moveToLast ()Z]
+      [27] pop
+      [28] aload_0 v0
+      [29] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [32] getfield #7
+        + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+      [35] aload_0 v0
+      [36] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [39] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [42] iconst_1
+      [43] invokeinterface #13
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [48] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [51] aload_0 v0
+      [52] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [55] getfield #8
+        + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+      [58] aload_0 v0
+      [59] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [62] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [65] iconst_2
+      [66] invokeinterface #13
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [71] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [74] return
+      [75] aload_0 v0
+      [76] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [79] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [82] invokeinterface #16
+        + InterfaceMethodref [android/database/Cursor.moveToPrevious ()Z]
+      [87] pop
+      [88] aload_0 v0
+      [89] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [92] getfield #7
+        + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+      [95] aload_0 v0
+      [96] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [99] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [102] iconst_1
+      [103] invokeinterface #13
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [108] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [111] aload_0 v0
+      [112] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [115] getfield #8
+        + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+      [118] aload_0 v0
+      [119] getfield #9
+        + Fieldref [com/flutesa/brainword/b.a Lcom/flutesa/brainword/Cards;]
+      [122] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [125] iconst_2
+      [126] invokeinterface #13
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [131] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [134] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [75] Var: ..., Stack: (empty)
+        - [134] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 53):
+  + Class [android/database/Cursor]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/TextView]
+  + Class [com/flutesa/brainword/Cards]
+  + Class [com/flutesa/brainword/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+  + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+  + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.isAfterLast ()Z]
+  + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
+  + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [a Lcom/flutesa/brainword/Cards;]
+  + NameAndType [b Landroid/widget/TextView;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [isAfterLast ()Z]
+  + NameAndType [moveToFirst ()Z]
+  + NameAndType [moveToNext ()Z]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/Cards;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/flutesa/brainword/Cards;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [com/flutesa/brainword/Cards]
+  + Utf8 [com/flutesa/brainword/c]
+  + Utf8 [getString]
+  + Utf8 [isAfterLast]
+  + Utf8 [java/lang/Object]
+  + Utf8 [moveToFirst]
+  + Utf8 [moveToNext]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/Cards;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.Cards a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/Cards;)V
+    Access flags: 0x0
+      = c(com.flutesa.brainword.Cards)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 88, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [4] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [7] invokeinterface #16
+        + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
+      [12] pop
+      [13] aload_0 v0
+      [14] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [17] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [20] invokeinterface #14
+        + InterfaceMethodref [android/database/Cursor.isAfterLast ()Z]
+      [25] ifeq +16 (target=41)
+      [28] aload_0 v0
+      [29] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [32] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [35] invokeinterface #15
+        + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
+      [40] pop
+      [41] aload_0 v0
+      [42] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [45] getfield #7
+        + Fieldref [com/flutesa/brainword/Cards.a Landroid/widget/TextView;]
+      [48] aload_0 v0
+      [49] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [52] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [55] iconst_1
+      [56] invokeinterface #13
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [61] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [64] aload_0 v0
+      [65] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [68] getfield #8
+        + Fieldref [com/flutesa/brainword/Cards.b Landroid/widget/TextView;]
+      [71] aload_0 v0
+      [72] getfield #9
+        + Fieldref [com/flutesa/brainword/c.a Lcom/flutesa/brainword/Cards;]
+      [75] invokestatic #11
+        + Methodref [com/flutesa/brainword/Cards.a (Lcom/flutesa/brainword/Cards;)Landroid/database/Cursor;]
+      [78] iconst_2
+      [79] invokeinterface #13
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [84] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [87] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [41] Var: ..., Stack: (empty)
+        - [87] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/ListAct
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.flutesa.brainword.ListAct extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 198):
+  + Integer [2130837507]
+  + Integer [2130837508]
+  + Integer [2130837509]
+  + Integer [2130903042]
+  + Integer [2130903043]
+  + Integer [2130903044]
+  + Integer [2131034116]
+  + Integer [2131034117]
+  + Integer [2131034125]
+  + Integer [2131034126]
+  + Integer [2131034127]
+  + Integer [2131099651]
+  + Integer [2131099652]
+  + Integer [2131099653]
+  + Integer [2131099654]
+  + String [_id]
+  + String [translate]
+  + String [word]
+  + Class [android/app/Activity]
+  + Class [android/app/AlertDialog$Builder]
+  + Class [android/database/Cursor]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [android/view/Window]
+  + Class [android/widget/Button]
+  + Class [android/widget/EditText]
+  + Class [android/widget/ListView]
+  + Class [android/widget/SimpleCursorAdapter]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/d]
+  + Class [com/flutesa/brainword/e]
+  + Class [com/flutesa/brainword/f]
+  + Class [com/flutesa/brainword/g]
+  + Class [com/flutesa/brainword/h]
+  + Class [com/flutesa/brainword/i]
+  + Class [com/flutesa/brainword/j]
+  + Class [com/flutesa/brainword/k]
+  + Class [com/flutesa/brainword/l]
+  + Class [java/lang/String]
+  + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+  + Fieldref [com/flutesa/brainword/ListAct.b Landroid/widget/ListAdapter;]
+  + Fieldref [com/flutesa/brainword/ListAct.c [Ljava/lang/String;]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+  + Methodref [android/app/AlertDialog$Builder.setIcon (I)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+  + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/view/Window.setFlags (II)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Methodref [android/widget/ListView.setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + Methodref [android/widget/SimpleCursorAdapter.<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+  + Methodref [com/flutesa/brainword/ListAct.findViewById (I)Landroid/view/View;]
+  + Methodref [com/flutesa/brainword/ListAct.getWindow ()Landroid/view/Window;]
+  + Methodref [com/flutesa/brainword/ListAct.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/ListAct.requestWindowFeature (I)Z]
+  + Methodref [com/flutesa/brainword/ListAct.setContentView (I)V]
+  + Methodref [com/flutesa/brainword/d.<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + Methodref [com/flutesa/brainword/e.<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + Methodref [com/flutesa/brainword/f.<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + Methodref [com/flutesa/brainword/g.<init> (Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;)V]
+  + Methodref [com/flutesa/brainword/h.<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + Methodref [com/flutesa/brainword/i.<init> (Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;J)V]
+  + Methodref [com/flutesa/brainword/j.<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + Methodref [com/flutesa/brainword/k.<init> (Lcom/flutesa/brainword/ListAct;J)V]
+  + Methodref [com/flutesa/brainword/l.<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/ListAct;)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/ListAct;J)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;J)V]
+  + NameAndType [a Landroid/database/Cursor;]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [b Landroid/widget/ListAdapter;]
+  + NameAndType [c [Ljava/lang/String;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [moveToPosition (I)Z]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setFlags (II)V]
+  + NameAndType [setIcon (I)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + NameAndType [setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + NameAndType [setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTitle (I)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [show ()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(II)V]
+  + Utf8 [(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+  + Utf8 [(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;J)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;JI)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;J)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/database/Cursor;]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Landroid/widget/ListAdapter;]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [_id]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/AlertDialog$Builder]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/Window]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [android/widget/ListView]
+  + Utf8 [android/widget/SimpleCursorAdapter]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/d]
+  + Utf8 [com/flutesa/brainword/e]
+  + Utf8 [com/flutesa/brainword/f]
+  + Utf8 [com/flutesa/brainword/g]
+  + Utf8 [com/flutesa/brainword/h]
+  + Utf8 [com/flutesa/brainword/i]
+  + Utf8 [com/flutesa/brainword/j]
+  + Utf8 [com/flutesa/brainword/k]
+  + Utf8 [com/flutesa/brainword/l]
+  + Utf8 [findViewById]
+  + Utf8 [from]
+  + Utf8 [getString]
+  + Utf8 [getWindow]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/String]
+  + Utf8 [managedQuery]
+  + Utf8 [moveToPosition]
+  + Utf8 [onCreate]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setAdapter]
+  + Utf8 [setContentView]
+  + Utf8 [setFlags]
+  + Utf8 [setIcon]
+  + Utf8 [setNegativeButton]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setOnItemClickListener]
+  + Utf8 [setOnItemLongClickListener]
+  + Utf8 [setPositiveButton]
+  + Utf8 [setText]
+  + Utf8 [setTitle]
+  + Utf8 [setView]
+  + Utf8 [show]
+  + Utf8 [translate]
+  + Utf8 [word]
+
+Fields (count = 3):
+  + Field:        a Landroid/database/Cursor;
+    Access flags: 0x2
+      = private android.database.Cursor a
+  + Field:        b Landroid/widget/ListAdapter;
+    Access flags: 0x2
+      = private android.widget.ListAdapter b
+  + Field:        c [Ljava/lang/String;
+    Access flags: 0x1a
+      = private static final java.lang.String[] c
+
+Methods (count = 7):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 0, stack = 4):
+      [0] iconst_3
+      [1] anewarray #40
+        + Class [java/lang/String]
+      [4] dup
+      [5] iconst_0
+      [6] ldc #16
+        + String [_id]
+      [8] aastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #18
+        + String [word]
+      [13] aastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #17
+        + String [translate]
+      [18] aastore
+      [19] putstatic #43
+        + Fieldref [com/flutesa/brainword/ListAct.c [Ljava/lang/String;]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ListAct()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #45
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 157, locals = 3, stack = 11):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #46
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] invokevirtual #65
+        + Methodref [com/flutesa/brainword/ListAct.getWindow ()Landroid/view/Window;]
+      [9] sipush 1024
+      [12] sipush 1024
+      [15] invokevirtual #57
+        + Methodref [android/view/Window.setFlags (II)V]
+      [18] aload_0 v0
+      [19] iconst_1
+      [20] invokevirtual #67
+        + Methodref [com/flutesa/brainword/ListAct.requestWindowFeature (I)Z]
+      [23] pop
+      [24] aload_0 v0
+      [25] ldc #6
+        + Integer [2130903044]
+      [27] invokevirtual #68
+        + Methodref [com/flutesa/brainword/ListAct.setContentView (I)V]
+      [30] aload_0 v0
+      [31] ldc #14
+        + Integer [2131099653]
+      [33] invokevirtual #64
+        + Methodref [com/flutesa/brainword/ListAct.findViewById (I)Landroid/view/View;]
+      [36] checkcast #25
+        + Class [android/widget/Button]
+      [39] astore_1 v1
+      [40] aload_0 v0
+      [41] ldc #15
+        + Integer [2131099654]
+      [43] invokevirtual #64
+        + Methodref [com/flutesa/brainword/ListAct.findViewById (I)Landroid/view/View;]
+      [46] checkcast #27
+        + Class [android/widget/ListView]
+      [49] astore_2 v2
+      [50] aload_0 v0
+      [51] aload_0 v0
+      [52] getstatic #44
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [55] getstatic #43
+        + Fieldref [com/flutesa/brainword/ListAct.c [Ljava/lang/String;]
+      [58] aconst_null
+      [59] aconst_null
+      [60] aconst_null
+      [61] invokevirtual #66
+        + Methodref [com/flutesa/brainword/ListAct.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+      [64] putfield #41
+        + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+      [67] aload_0 v0
+      [68] new #28
+        + Class [android/widget/SimpleCursorAdapter]
+      [71] dup
+      [72] aload_0 v0
+      [73] ldc #5
+        + Integer [2130903043]
+      [75] aload_0 v0
+      [76] getfield #41
+        + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+      [79] iconst_2
+      [80] anewarray #40
+        + Class [java/lang/String]
+      [83] dup
+      [84] iconst_0
+      [85] ldc #18
+        + String [word]
+      [87] aastore
+      [88] dup
+      [89] iconst_1
+      [90] ldc #17
+        + String [translate]
+      [92] aastore
+      [93] iconst_2
+      [94] newarray 10
+      [96] dup
+      [97] iconst_0
+      [98] ldc #12
+        + Integer [2131099651]
+      [100] iastore
+      [101] dup
+      [102] iconst_1
+      [103] ldc #13
+        + Integer [2131099652]
+      [105] iastore
+      [106] invokespecial #63
+        + Methodref [android/widget/SimpleCursorAdapter.<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+      [109] putfield #42
+        + Fieldref [com/flutesa/brainword/ListAct.b Landroid/widget/ListAdapter;]
+      [112] aload_2 v2
+      [113] aload_0 v0
+      [114] getfield #42
+        + Fieldref [com/flutesa/brainword/ListAct.b Landroid/widget/ListAdapter;]
+      [117] invokevirtual #60
+        + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [120] aload_1 v1
+      [121] new #31
+        + Class [com/flutesa/brainword/d]
+      [124] dup
+      [125] aload_0 v0
+      [126] invokespecial #69
+        + Methodref [com/flutesa/brainword/d.<init> (Lcom/flutesa/brainword/ListAct;)V]
+      [129] invokevirtual #58
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [132] aload_2 v2
+      [133] new #32
+        + Class [com/flutesa/brainword/e]
+      [136] dup
+      [137] aload_0 v0
+      [138] invokespecial #70
+        + Methodref [com/flutesa/brainword/e.<init> (Lcom/flutesa/brainword/ListAct;)V]
+      [141] invokevirtual #62
+        + Methodref [android/widget/ListView.setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+      [144] aload_2 v2
+      [145] new #33
+        + Class [com/flutesa/brainword/f]
+      [148] dup
+      [149] aload_0 v0
+      [150] invokespecial #71
+        + Methodref [com/flutesa/brainword/f.<init> (Lcom/flutesa/brainword/ListAct;)V]
+      [153] invokevirtual #61
+        + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+      [156] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x1008
+      = static synthetic void a(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 106, locals = 5, stack = 7):
+      [0] aload_0 v0
+      [1] dup
+      [2] astore_0 v0
+      [3] invokestatic #54
+        + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+      [6] ldc #4
+        + Integer [2130903042]
+      [8] aconst_null
+      [9] invokevirtual #55
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [12] dup
+      [13] astore_1 v1
+      [14] ldc #12
+        + Integer [2131099651]
+      [16] invokevirtual #56
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [19] checkcast #26
+        + Class [android/widget/EditText]
+      [22] astore_2 v2
+      [23] aload_1 v1
+      [24] ldc #13
+        + Integer [2131099652]
+      [26] invokevirtual #56
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [29] checkcast #26
+        + Class [android/widget/EditText]
+      [32] astore_3 v3
+      [33] new #20
+        + Class [android/app/AlertDialog$Builder]
+      [36] dup
+      [37] aload_0 v0
+      [38] invokespecial #47
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [41] dup
+      [42] astore v4
+      [44] aload_1 v1
+      [45] invokevirtual #52
+        + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+      [48] pop
+      [49] aload v4
+      [51] ldc #1
+        + Integer [2130837507]
+      [53] invokevirtual #48
+        + Methodref [android/app/AlertDialog$Builder.setIcon (I)Landroid/app/AlertDialog$Builder;]
+      [56] pop
+      [57] aload v4
+      [59] ldc #9
+        + Integer [2131034125]
+      [61] invokevirtual #51
+        + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+      [64] pop
+      [65] aload v4
+      [67] ldc #7
+        + Integer [2131034116]
+      [69] new #34
+        + Class [com/flutesa/brainword/g]
+      [72] dup
+      [73] aload_0 v0
+      [74] aload_2 v2
+      [75] aload_3 v3
+      [76] invokespecial #72
+        + Methodref [com/flutesa/brainword/g.<init> (Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;)V]
+      [79] invokevirtual #50
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [82] pop
+      [83] aload v4
+      [85] ldc #8
+        + Integer [2131034117]
+      [87] new #35
+        + Class [com/flutesa/brainword/h]
+      [90] dup
+      [91] aload_0 v0
+      [92] invokespecial #73
+        + Methodref [com/flutesa/brainword/h.<init> (Lcom/flutesa/brainword/ListAct;)V]
+      [95] invokevirtual #49
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [98] pop
+      [99] aload v4
+      [101] invokevirtual #53
+        + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+      [104] pop
+      [105] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/flutesa/brainword/ListAct;J)V
+    Access flags: 0x1008
+      = static synthetic void a(com.flutesa.brainword.ListAct,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 5, stack = 7):
+      [0] aload_0 v0
+      [1] lload_1 v1
+      [2] lstore_3 v3
+      [3] astore_0 v0
+      [4] new #20
+        + Class [android/app/AlertDialog$Builder]
+      [7] dup
+      [8] aload_0 v0
+      [9] invokespecial #47
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [12] dup
+      [13] astore_1 v1
+      [14] ldc #2
+        + Integer [2130837508]
+      [16] invokevirtual #48
+        + Methodref [android/app/AlertDialog$Builder.setIcon (I)Landroid/app/AlertDialog$Builder;]
+      [19] pop
+      [20] aload_1 v1
+      [21] ldc #11
+        + Integer [2131034127]
+      [23] invokevirtual #51
+        + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+      [26] pop
+      [27] aload_1 v1
+      [28] ldc #7
+        + Integer [2131034116]
+      [30] new #38
+        + Class [com/flutesa/brainword/k]
+      [33] dup
+      [34] aload_0 v0
+      [35] lload_3 v3
+      [36] invokespecial #76
+        + Methodref [com/flutesa/brainword/k.<init> (Lcom/flutesa/brainword/ListAct;J)V]
+      [39] invokevirtual #50
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [42] pop
+      [43] aload_1 v1
+      [44] ldc #8
+        + Integer [2131034117]
+      [46] new #39
+        + Class [com/flutesa/brainword/l]
+      [49] dup
+      [50] aload_0 v0
+      [51] invokespecial #77
+        + Methodref [com/flutesa/brainword/l.<init> (Lcom/flutesa/brainword/ListAct;)V]
+      [54] invokevirtual #49
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [57] pop
+      [58] aload_1 v1
+      [59] invokevirtual #53
+        + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+      [62] pop
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/flutesa/brainword/ListAct;JI)V
+    Access flags: 0x1008
+      = static synthetic void a(com.flutesa.brainword.ListAct,long,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 149, locals = 7, stack = 9):
+      [0] aload_0 v0
+      [1] lload_1 v1
+      [2] iload_3 v3
+      [3] istore_1 v1
+      [4] lstore v5
+      [6] dup
+      [7] astore_0 v0
+      [8] invokestatic #54
+        + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+      [11] ldc #4
+        + Integer [2130903042]
+      [13] aconst_null
+      [14] invokevirtual #55
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [17] dup
+      [18] astore_2 v2
+      [19] ldc #12
+        + Integer [2131099651]
+      [21] invokevirtual #56
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [24] checkcast #26
+        + Class [android/widget/EditText]
+      [27] astore_3 v3
+      [28] aload_2 v2
+      [29] ldc #13
+        + Integer [2131099652]
+      [31] invokevirtual #56
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [34] checkcast #26
+        + Class [android/widget/EditText]
+      [37] astore v4
+      [39] aload_0 v0
+      [40] getfield #41
+        + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+      [43] iload_1 v1
+      [44] invokeinterface #79
+        + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+      [49] pop
+      [50] aload_3 v3
+      [51] aload_0 v0
+      [52] getfield #41
+        + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+      [55] iconst_1
+      [56] invokeinterface #78
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [61] invokevirtual #59
+        + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+      [64] aload v4
+      [66] aload_0 v0
+      [67] getfield #41
+        + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+      [70] iconst_2
+      [71] invokeinterface #78
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [76] invokevirtual #59
+        + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+      [79] new #20
+        + Class [android/app/AlertDialog$Builder]
+      [82] dup
+      [83] aload_0 v0
+      [84] invokespecial #47
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [87] dup
+      [88] astore_1 v1
+      [89] aload_2 v2
+      [90] invokevirtual #52
+        + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+      [93] pop
+      [94] aload_1 v1
+      [95] ldc #3
+        + Integer [2130837509]
+      [97] invokevirtual #48
+        + Methodref [android/app/AlertDialog$Builder.setIcon (I)Landroid/app/AlertDialog$Builder;]
+      [100] pop
+      [101] aload_1 v1
+      [102] ldc #10
+        + Integer [2131034126]
+      [104] invokevirtual #51
+        + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+      [107] pop
+      [108] aload_1 v1
+      [109] ldc #7
+        + Integer [2131034116]
+      [111] new #36
+        + Class [com/flutesa/brainword/i]
+      [114] dup
+      [115] aload_0 v0
+      [116] aload_3 v3
+      [117] aload v4
+      [119] lload v5
+      [121] invokespecial #74
+        + Methodref [com/flutesa/brainword/i.<init> (Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;J)V]
+      [124] invokevirtual #50
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [127] pop
+      [128] aload_1 v1
+      [129] ldc #8
+        + Integer [2131034117]
+      [131] new #37
+        + Class [com/flutesa/brainword/j]
+      [134] dup
+      [135] aload_0 v0
+      [136] invokespecial #75
+        + Methodref [com/flutesa/brainword/j.<init> (Lcom/flutesa/brainword/ListAct;)V]
+      [139] invokevirtual #49
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [142] pop
+      [143] aload_1 v1
+      [144] invokevirtual #53
+        + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+      [147] pop
+      [148] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;
+    Access flags: 0x1008
+      = static synthetic android.database.Cursor b(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #41
+        + Fieldref [com/flutesa/brainword/ListAct.a Landroid/database/Cursor;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/d
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.d extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 23):
+  + Class [android/view/View$OnClickListener]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/d]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/d.a Lcom/flutesa/brainword/ListAct;]
+  + Methodref [com/flutesa/brainword/ListAct.a (Lcom/flutesa/brainword/ListAct;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/ListAct;)V]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x0
+      = d(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/d.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/d.a Lcom/flutesa/brainword/ListAct;]
+      [4] invokestatic #6
+        + Methodref [com/flutesa/brainword/ListAct.a (Lcom/flutesa/brainword/ListAct;)V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/e
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.e extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemLongClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/widget/AdapterView$OnItemLongClickListener]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/e]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/e.a Lcom/flutesa/brainword/ListAct;]
+  + Methodref [com/flutesa/brainword/ListAct.a (Lcom/flutesa/brainword/ListAct;J)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/ListAct;J)V]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;J)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/widget/AdapterView$OnItemLongClickListener]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/e]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onItemLongClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x0
+      = e(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/e.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z
+    Access flags: 0x11
+      = public final boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 6, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/e.a Lcom/flutesa/brainword/ListAct;]
+      [4] lload v4
+      [6] invokestatic #6
+        + Methodref [com/flutesa/brainword/ListAct.a (Lcom/flutesa/brainword/ListAct;J)V]
+      [9] iconst_1
+      [10] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/f
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.f extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/f]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/f.a Lcom/flutesa/brainword/ListAct;]
+  + Methodref [com/flutesa/brainword/ListAct.a (Lcom/flutesa/brainword/ListAct;JI)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/ListAct;JI)V]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;JI)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/widget/AdapterView$OnItemClickListener]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/f]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onItemClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x0
+      = f(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/f.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    Access flags: 0x11
+      = public final void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 6, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/f.a Lcom/flutesa/brainword/ListAct;]
+      [4] lload v4
+      [6] iload_3 v3
+      [7] invokestatic #6
+        + Methodref [com/flutesa/brainword/ListAct.a (Lcom/flutesa/brainword/ListAct;JI)V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/g
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.g extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 77):
+  + String [translate]
+  + String [word]
+  + Class [android/content/ContentResolver]
+  + Class [android/content/ContentValues]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [android/database/Cursor]
+  + Class [android/text/Editable]
+  + Class [android/widget/EditText]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/g]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Fieldref [com/flutesa/brainword/g.a Lcom/flutesa/brainword/ListAct;]
+  + Fieldref [com/flutesa/brainword/g.b Landroid/widget/EditText;]
+  + Fieldref [com/flutesa/brainword/g.c Landroid/widget/EditText;]
+  + Methodref [android/content/ContentResolver.insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + Methodref [android/content/ContentValues.<init> (I)V]
+  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [com/flutesa/brainword/ListAct.b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/ListAct.getContentResolver ()Landroid/content/ContentResolver;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/database/Cursor.requery ()Z]
+  + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + NameAndType [b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [c Landroid/widget/EditText;]
+  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [requery ()Z]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Landroid/content/ContentResolver;]
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/content/ContentResolver]
+  + Utf8 [android/content/ContentValues]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/text/Editable]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/g]
+  + Utf8 [getContentResolver]
+  + Utf8 [getText]
+  + Utf8 [insert]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [put]
+  + Utf8 [requery]
+  + Utf8 [toString]
+  + Utf8 [translate]
+  + Utf8 [word]
+
+Fields (count = 3):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x1012
+      = private final synthetic android.widget.EditText b
+  + Field:        c Landroid/widget/EditText;
+    Access flags: 0x1012
+      = private final synthetic android.widget.EditText c
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;)V
+    Access flags: 0x0
+      = g(com.flutesa.brainword.ListAct,android.widget.EditText,android.widget.EditText)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        + Fieldref [com/flutesa/brainword/g.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #15
+        + Fieldref [com/flutesa/brainword/g.b Landroid/widget/EditText;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #16
+        + Fieldref [com/flutesa/brainword/g.c Landroid/widget/EditText;]
+      [15] aload_0 v0
+      [16] invokespecial #23
+        + Methodref [java/lang/Object.<init> ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 74, locals = 3, stack = 3):
+      [0] new #4
+        + Class [android/content/ContentValues]
+      [3] dup
+      [4] iconst_2
+      [5] invokespecial #18
+        + Methodref [android/content/ContentValues.<init> (I)V]
+      [8] dup
+      [9] astore_1 v1
+      [10] ldc #2
+        + String [word]
+      [12] aload_0 v0
+      [13] getfield #15
+        + Fieldref [com/flutesa/brainword/g.b Landroid/widget/EditText;]
+      [16] invokevirtual #20
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [19] invokeinterface #25
+        + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+      [24] invokevirtual #19
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [27] aload_1 v1
+      [28] ldc #1
+        + String [translate]
+      [30] aload_0 v0
+      [31] getfield #16
+        + Fieldref [com/flutesa/brainword/g.c Landroid/widget/EditText;]
+      [34] invokevirtual #20
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [37] invokeinterface #25
+        + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+      [42] invokevirtual #19
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [45] aload_0 v0
+      [46] getfield #14
+        + Fieldref [com/flutesa/brainword/g.a Lcom/flutesa/brainword/ListAct;]
+      [49] invokevirtual #22
+        + Methodref [com/flutesa/brainword/ListAct.getContentResolver ()Landroid/content/ContentResolver;]
+      [52] getstatic #13
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [55] aload_1 v1
+      [56] invokevirtual #17
+        + Methodref [android/content/ContentResolver.insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+      [59] pop
+      [60] aload_0 v0
+      [61] getfield #14
+        + Fieldref [com/flutesa/brainword/g.a Lcom/flutesa/brainword/ListAct;]
+      [64] invokestatic #21
+        + Methodref [com/flutesa/brainword/ListAct.b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+      [67] invokeinterface #24
+        + InterfaceMethodref [android/database/Cursor.requery ()Z]
+      [72] pop
+      [73] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/h
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.h extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 19):
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/flutesa/brainword/h]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/h.a Lcom/flutesa/brainword/ListAct;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [com/flutesa/brainword/h]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x0
+      = h(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [com/flutesa/brainword/h.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/i
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.i extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 93):
+  + String [_ID=]
+  + String [translate]
+  + String [word]
+  + Class [android/content/ContentResolver]
+  + Class [android/content/ContentValues]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [android/database/Cursor]
+  + Class [android/text/Editable]
+  + Class [android/widget/EditText]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/i]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Fieldref [com/flutesa/brainword/i.a Lcom/flutesa/brainword/ListAct;]
+  + Fieldref [com/flutesa/brainword/i.b Landroid/widget/EditText;]
+  + Fieldref [com/flutesa/brainword/i.c Landroid/widget/EditText;]
+  + Fieldref [com/flutesa/brainword/i.d J]
+  + Methodref [android/content/ContentResolver.update (Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [android/content/ContentValues.<init> (I)V]
+  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [com/flutesa/brainword/ListAct.b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/ListAct.getContentResolver ()Landroid/content/ContentResolver;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.requery ()Z]
+  + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + NameAndType [append (J)Ljava/lang/StringBuilder;]
+  + NameAndType [b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [c Landroid/widget/EditText;]
+  + NameAndType [d J]
+  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [requery ()Z]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [update (Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [()Landroid/content/ContentResolver;]
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;J)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [_ID=]
+  + Utf8 [a]
+  + Utf8 [android/content/ContentResolver]
+  + Utf8 [android/content/ContentValues]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/text/Editable]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/i]
+  + Utf8 [d]
+  + Utf8 [getContentResolver]
+  + Utf8 [getText]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [put]
+  + Utf8 [requery]
+  + Utf8 [toString]
+  + Utf8 [translate]
+  + Utf8 [update]
+  + Utf8 [word]
+
+Fields (count = 4):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x1012
+      = private final synthetic android.widget.EditText b
+  + Field:        c Landroid/widget/EditText;
+    Access flags: 0x1012
+      = private final synthetic android.widget.EditText c
+  + Field:        d J
+    Access flags: 0x1012
+      = private final synthetic long d
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;Landroid/widget/EditText;Landroid/widget/EditText;J)V
+    Access flags: 0x0
+      = i(com.flutesa.brainword.ListAct,android.widget.EditText,android.widget.EditText,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 6, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #16
+        + Fieldref [com/flutesa/brainword/i.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #17
+        + Fieldref [com/flutesa/brainword/i.b Landroid/widget/EditText;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #18
+        + Fieldref [com/flutesa/brainword/i.c Landroid/widget/EditText;]
+      [15] aload_0 v0
+      [16] lload v4
+      [18] putfield #19
+        + Fieldref [com/flutesa/brainword/i.d J]
+      [21] aload_0 v0
+      [22] invokespecial #26
+        + Methodref [java/lang/Object.<init> ()V]
+      [25] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 94, locals = 3, stack = 6):
+      [0] new #5
+        + Class [android/content/ContentValues]
+      [3] dup
+      [4] iconst_2
+      [5] invokespecial #21
+        + Methodref [android/content/ContentValues.<init> (I)V]
+      [8] dup
+      [9] astore_1 v1
+      [10] ldc #3
+        + String [word]
+      [12] aload_0 v0
+      [13] getfield #17
+        + Fieldref [com/flutesa/brainword/i.b Landroid/widget/EditText;]
+      [16] invokevirtual #23
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [19] invokeinterface #31
+        + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+      [24] invokevirtual #22
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [27] aload_1 v1
+      [28] ldc #2
+        + String [translate]
+      [30] aload_0 v0
+      [31] getfield #18
+        + Fieldref [com/flutesa/brainword/i.c Landroid/widget/EditText;]
+      [34] invokevirtual #23
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [37] invokeinterface #31
+        + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+      [42] invokevirtual #22
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [45] aload_0 v0
+      [46] getfield #16
+        + Fieldref [com/flutesa/brainword/i.a Lcom/flutesa/brainword/ListAct;]
+      [49] invokevirtual #25
+        + Methodref [com/flutesa/brainword/ListAct.getContentResolver ()Landroid/content/ContentResolver;]
+      [52] getstatic #15
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [55] aload_1 v1
+      [56] new #14
+        + Class [java/lang/StringBuilder]
+      [59] dup
+      [60] ldc #1
+        + String [_ID=]
+      [62] invokespecial #27
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [65] aload_0 v0
+      [66] getfield #19
+        + Fieldref [com/flutesa/brainword/i.d J]
+      [69] invokevirtual #28
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [72] invokevirtual #29
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [75] aconst_null
+      [76] invokevirtual #20
+        + Methodref [android/content/ContentResolver.update (Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+      [79] pop
+      [80] aload_0 v0
+      [81] getfield #16
+        + Fieldref [com/flutesa/brainword/i.a Lcom/flutesa/brainword/ListAct;]
+      [84] invokestatic #24
+        + Methodref [com/flutesa/brainword/ListAct.b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+      [87] invokeinterface #30
+        + InterfaceMethodref [android/database/Cursor.requery ()Z]
+      [92] pop
+      [93] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/j
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.j extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 19):
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/flutesa/brainword/j]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/j.a Lcom/flutesa/brainword/ListAct;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [com/flutesa/brainword/j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x0
+      = j(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [com/flutesa/brainword/j.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/k
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.k extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 64):
+  + String [_ID=]
+  + Class [android/content/ContentResolver]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [android/database/Cursor]
+  + Class [com/flutesa/brainword/ListAct]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/k]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Fieldref [com/flutesa/brainword/k.a Lcom/flutesa/brainword/ListAct;]
+  + Fieldref [com/flutesa/brainword/k.b J]
+  + Methodref [android/content/ContentResolver.delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [com/flutesa/brainword/ListAct.b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/ListAct.getContentResolver ()Landroid/content/ContentResolver;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.requery ()Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + NameAndType [append (J)Ljava/lang/StringBuilder;]
+  + NameAndType [b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + NameAndType [b J]
+  + NameAndType [delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
+  + NameAndType [requery ()Z]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Landroid/content/ContentResolver;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;J)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [_ID=]
+  + Utf8 [a]
+  + Utf8 [android/content/ContentResolver]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [com/flutesa/brainword/ListAct]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/k]
+  + Utf8 [delete]
+  + Utf8 [getContentResolver]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [requery]
+  + Utf8 [toString]
+
+Fields (count = 2):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+  + Field:        b J
+    Access flags: 0x1012
+      = private final synthetic long b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;J)V
+    Access flags: 0x0
+      = k(com.flutesa.brainword.ListAct,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 4, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #11
+        + Fieldref [com/flutesa/brainword/k.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] lload_2 v2
+      [7] putfield #12
+        + Fieldref [com/flutesa/brainword/k.b J]
+      [10] aload_0 v0
+      [11] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 48, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/flutesa/brainword/k.a Lcom/flutesa/brainword/ListAct;]
+      [4] invokevirtual #15
+        + Methodref [com/flutesa/brainword/ListAct.getContentResolver ()Landroid/content/ContentResolver;]
+      [7] getstatic #10
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [10] new #9
+        + Class [java/lang/StringBuilder]
+      [13] dup
+      [14] ldc #1
+        + String [_ID=]
+      [16] invokespecial #17
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [19] aload_0 v0
+      [20] getfield #12
+        + Fieldref [com/flutesa/brainword/k.b J]
+      [23] invokevirtual #18
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [26] invokevirtual #19
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [29] aconst_null
+      [30] invokevirtual #13
+        + Methodref [android/content/ContentResolver.delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+      [33] pop
+      [34] aload_0 v0
+      [35] getfield #11
+        + Fieldref [com/flutesa/brainword/k.a Lcom/flutesa/brainword/ListAct;]
+      [38] invokestatic #14
+        + Methodref [com/flutesa/brainword/ListAct.b (Lcom/flutesa/brainword/ListAct;)Landroid/database/Cursor;]
+      [41] invokeinterface #20
+        + InterfaceMethodref [android/database/Cursor.requery ()Z]
+      [46] pop
+      [47] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/l
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.l extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 19):
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/flutesa/brainword/l]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/l.a Lcom/flutesa/brainword/ListAct;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListAct;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListAct;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [com/flutesa/brainword/l]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListAct;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListAct a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListAct;)V
+    Access flags: 0x0
+      = l(com.flutesa.brainword.ListAct)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [com/flutesa/brainword/l.a Lcom/flutesa/brainword/ListAct;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/ListToast
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.flutesa.brainword.ListToast extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 169):
+  + Integer [2130837508]
+  + Integer [2130903046]
+  + Integer [2130903047]
+  + Integer [2131034116]
+  + Integer [2131034117]
+  + Integer [2131034127]
+  + Integer [2131099658]
+  + Integer [2131099659]
+  + Integer [2131099660]
+  + Integer [2131099661]
+  + String [0]
+  + String [_id]
+  + String [com.flutesa.brainword.direction]
+  + String [translate]
+  + String [word]
+  + Class [android/app/Activity]
+  + Class [android/app/AlertDialog$Builder]
+  + Class [android/content/Intent]
+  + Class [android/database/Cursor]
+  + Class [android/view/Window]
+  + Class [android/widget/ListView]
+  + Class [android/widget/SimpleCursorAdapter]
+  + Class [android/widget/TextView]
+  + Class [com/flutesa/brainword/ListToast]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/m]
+  + Class [com/flutesa/brainword/n]
+  + Class [com/flutesa/brainword/o]
+  + Class [com/flutesa/brainword/p]
+  + Class [com/flutesa/brainword/q]
+  + Class [java/lang/String]
+  + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+  + Fieldref [com/flutesa/brainword/ListToast.b Landroid/widget/ListAdapter;]
+  + Fieldref [com/flutesa/brainword/ListToast.c [Ljava/lang/String;]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+  + Methodref [android/app/AlertDialog$Builder.setIcon (I)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+  + Methodref [android/content/Intent.getIntExtra (Ljava/lang/String;I)I]
+  + Methodref [android/view/Window.setFlags (II)V]
+  + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Methodref [android/widget/ListView.setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + Methodref [android/widget/SimpleCursorAdapter.<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/flutesa/brainword/ListToast.findViewById (I)Landroid/view/View;]
+  + Methodref [com/flutesa/brainword/ListToast.getIntent ()Landroid/content/Intent;]
+  + Methodref [com/flutesa/brainword/ListToast.getWindow ()Landroid/view/Window;]
+  + Methodref [com/flutesa/brainword/ListToast.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/ListToast.requestWindowFeature (I)Z]
+  + Methodref [com/flutesa/brainword/ListToast.setContentView (I)V]
+  + Methodref [com/flutesa/brainword/m.<init> (Lcom/flutesa/brainword/ListToast;)V]
+  + Methodref [com/flutesa/brainword/n.<init> (Lcom/flutesa/brainword/ListToast;)V]
+  + Methodref [com/flutesa/brainword/o.<init> (Lcom/flutesa/brainword/ListToast;)V]
+  + Methodref [com/flutesa/brainword/p.<init> (Lcom/flutesa/brainword/ListToast;J)V]
+  + Methodref [com/flutesa/brainword/q.<init> (Lcom/flutesa/brainword/ListToast;)V]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/ListToast;)V]
+  + NameAndType [<init> (Lcom/flutesa/brainword/ListToast;J)V]
+  + NameAndType [a Landroid/database/Cursor;]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [b Landroid/widget/ListAdapter;]
+  + NameAndType [c [Ljava/lang/String;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getIntExtra (Ljava/lang/String;I)I]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [moveToPosition (I)Z]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setFlags (II)V]
+  + NameAndType [setIcon (I)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + NameAndType [setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + NameAndType [setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTitle (I)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [show ()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(II)V]
+  + Utf8 [(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+  + Utf8 [(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;I)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;J)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;I)I]
+  + Utf8 [0]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/database/Cursor;]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Landroid/widget/ListAdapter;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [_id]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/AlertDialog$Builder]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/view/Window]
+  + Utf8 [android/widget/ListView]
+  + Utf8 [android/widget/SimpleCursorAdapter]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com.flutesa.brainword.direction]
+  + Utf8 [com/flutesa/brainword/ListToast]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/m]
+  + Utf8 [com/flutesa/brainword/n]
+  + Utf8 [com/flutesa/brainword/o]
+  + Utf8 [com/flutesa/brainword/p]
+  + Utf8 [com/flutesa/brainword/q]
+  + Utf8 [findViewById]
+  + Utf8 [getIntExtra]
+  + Utf8 [getIntent]
+  + Utf8 [getString]
+  + Utf8 [getWindow]
+  + Utf8 [java/lang/String]
+  + Utf8 [managedQuery]
+  + Utf8 [moveToPosition]
+  + Utf8 [onCreate]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setAdapter]
+  + Utf8 [setContentView]
+  + Utf8 [setFlags]
+  + Utf8 [setIcon]
+  + Utf8 [setNegativeButton]
+  + Utf8 [setOnItemClickListener]
+  + Utf8 [setOnItemLongClickListener]
+  + Utf8 [setPositiveButton]
+  + Utf8 [setText]
+  + Utf8 [setTitle]
+  + Utf8 [show]
+  + Utf8 [translate]
+  + Utf8 [word]
+
+Fields (count = 3):
+  + Field:        a Landroid/database/Cursor;
+    Access flags: 0x2
+      = private android.database.Cursor a
+  + Field:        b Landroid/widget/ListAdapter;
+    Access flags: 0x2
+      = private android.widget.ListAdapter b
+  + Field:        c [Ljava/lang/String;
+    Access flags: 0x1a
+      = private static final java.lang.String[] c
+
+Methods (count = 7):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 0, stack = 4):
+      [0] iconst_3
+      [1] anewarray #31
+        + Class [java/lang/String]
+      [4] dup
+      [5] iconst_0
+      [6] ldc #12
+        + String [_id]
+      [8] aastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #15
+        + String [word]
+      [13] aastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #14
+        + String [translate]
+      [18] aastore
+      [19] putstatic #34
+        + Fieldref [com/flutesa/brainword/ListToast.c [Ljava/lang/String;]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ListToast()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #36
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 245, locals = 4, stack = 11):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #37
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] invokevirtual #53
+        + Methodref [com/flutesa/brainword/ListToast.getWindow ()Landroid/view/Window;]
+      [9] sipush 1024
+      [12] sipush 1024
+      [15] invokevirtual #45
+        + Methodref [android/view/Window.setFlags (II)V]
+      [18] aload_0 v0
+      [19] iconst_1
+      [20] invokevirtual #55
+        + Methodref [com/flutesa/brainword/ListToast.requestWindowFeature (I)Z]
+      [23] pop
+      [24] aload_0 v0
+      [25] invokevirtual #52
+        + Methodref [com/flutesa/brainword/ListToast.getIntent ()Landroid/content/Intent;]
+      [28] ldc #13
+        + String [com.flutesa.brainword.direction]
+      [30] iconst_0
+      [31] invokevirtual #44
+        + Methodref [android/content/Intent.getIntExtra (Ljava/lang/String;I)I]
+      [34] istore_1 v1
+      [35] aload_0 v0
+      [36] ldc #3
+        + Integer [2130903047]
+      [38] invokevirtual #56
+        + Methodref [com/flutesa/brainword/ListToast.setContentView (I)V]
+      [41] aload_0 v0
+      [42] ldc #9
+        + Integer [2131099660]
+      [44] invokevirtual #51
+        + Methodref [com/flutesa/brainword/ListToast.findViewById (I)Landroid/view/View;]
+      [47] checkcast #21
+        + Class [android/widget/ListView]
+      [50] astore_2 v2
+      [51] aload_0 v0
+      [52] ldc #10
+        + Integer [2131099661]
+      [54] invokevirtual #51
+        + Methodref [com/flutesa/brainword/ListToast.findViewById (I)Landroid/view/View;]
+      [57] checkcast #21
+        + Class [android/widget/ListView]
+      [60] astore_3 v3
+      [61] iload_1 v1
+      [62] tableswitch (2 offsets, default=22) (target=84)
+        0: offset = 22, target = 84
+        1: offset = 85, target = 147
+        default: offset = 22, target = 84
+      [84] aload_0 v0
+      [85] aload_0 v0
+      [86] getstatic #35
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [89] getstatic #34
+        + Fieldref [com/flutesa/brainword/ListToast.c [Ljava/lang/String;]
+      [92] aconst_null
+      [93] aconst_null
+      [94] aconst_null
+      [95] invokevirtual #54
+        + Methodref [com/flutesa/brainword/ListToast.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+      [98] putfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [101] aload_0 v0
+      [102] new #22
+        + Class [android/widget/SimpleCursorAdapter]
+      [105] dup
+      [106] aload_0 v0
+      [107] ldc #2
+        + Integer [2130903046]
+      [109] aload_0 v0
+      [110] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [113] iconst_1
+      [114] anewarray #31
+        + Class [java/lang/String]
+      [117] dup
+      [118] iconst_0
+      [119] ldc #15
+        + String [word]
+      [121] aastore
+      [122] iconst_1
+      [123] newarray 10
+      [125] dup
+      [126] iconst_0
+      [127] ldc #7
+        + Integer [2131099658]
+      [129] iastore
+      [130] invokespecial #49
+        + Methodref [android/widget/SimpleCursorAdapter.<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+      [133] putfield #33
+        + Fieldref [com/flutesa/brainword/ListToast.b Landroid/widget/ListAdapter;]
+      [136] aload_2 v2
+      [137] aload_0 v0
+      [138] getfield #33
+        + Fieldref [com/flutesa/brainword/ListToast.b Landroid/widget/ListAdapter;]
+      [141] invokevirtual #46
+        + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [144] goto +64 (target=208)
+      [147] aload_0 v0
+      [148] aload_0 v0
+      [149] getstatic #35
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [152] getstatic #34
+        + Fieldref [com/flutesa/brainword/ListToast.c [Ljava/lang/String;]
+      [155] aconst_null
+      [156] aconst_null
+      [157] ldc #11
+        + String [0]
+      [159] invokevirtual #54
+        + Methodref [com/flutesa/brainword/ListToast.managedQuery (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+      [162] putfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [165] aload_0 v0
+      [166] new #22
+        + Class [android/widget/SimpleCursorAdapter]
+      [169] dup
+      [170] aload_0 v0
+      [171] ldc #2
+        + Integer [2130903046]
+      [173] aload_0 v0
+      [174] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [177] iconst_1
+      [178] anewarray #31
+        + Class [java/lang/String]
+      [181] dup
+      [182] iconst_0
+      [183] ldc #14
+        + String [translate]
+      [185] aastore
+      [186] iconst_1
+      [187] newarray 10
+      [189] dup
+      [190] iconst_0
+      [191] ldc #7
+        + Integer [2131099658]
+      [193] iastore
+      [194] invokespecial #49
+        + Methodref [android/widget/SimpleCursorAdapter.<init> (Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[I)V]
+      [197] putfield #33
+        + Fieldref [com/flutesa/brainword/ListToast.b Landroid/widget/ListAdapter;]
+      [200] aload_3 v3
+      [201] aload_0 v0
+      [202] getfield #33
+        + Fieldref [com/flutesa/brainword/ListToast.b Landroid/widget/ListAdapter;]
+      [205] invokevirtual #46
+        + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [208] aload_2 v2
+      [209] new #26
+        + Class [com/flutesa/brainword/m]
+      [212] dup
+      [213] aload_0 v0
+      [214] invokespecial #57
+        + Methodref [com/flutesa/brainword/m.<init> (Lcom/flutesa/brainword/ListToast;)V]
+      [217] invokevirtual #48
+        + Methodref [android/widget/ListView.setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+      [220] aload_2 v2
+      [221] new #27
+        + Class [com/flutesa/brainword/n]
+      [224] dup
+      [225] aload_0 v0
+      [226] invokespecial #58
+        + Methodref [com/flutesa/brainword/n.<init> (Lcom/flutesa/brainword/ListToast;)V]
+      [229] invokevirtual #47
+        + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+      [232] aload_3 v3
+      [233] new #28
+        + Class [com/flutesa/brainword/o]
+      [236] dup
+      [237] aload_0 v0
+      [238] invokespecial #59
+        + Methodref [com/flutesa/brainword/o.<init> (Lcom/flutesa/brainword/ListToast;)V]
+      [241] invokevirtual #47
+        + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+      [244] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [84] Var: ...[i][a:android/widget/ListView][a:android/widget/ListView], Stack: (empty)
+        - [147] Var: ..., Stack: (empty)
+        - [208] Var: ..., Stack: (empty)
+  + Method:       a(Lcom/flutesa/brainword/ListToast;J)V
+    Access flags: 0x1008
+      = static synthetic void a(com.flutesa.brainword.ListToast,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 5, stack = 7):
+      [0] aload_0 v0
+      [1] lload_1 v1
+      [2] lstore_3 v3
+      [3] astore_0 v0
+      [4] new #17
+        + Class [android/app/AlertDialog$Builder]
+      [7] dup
+      [8] aload_0 v0
+      [9] invokespecial #38
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [12] dup
+      [13] astore_1 v1
+      [14] ldc #1
+        + Integer [2130837508]
+      [16] invokevirtual #39
+        + Methodref [android/app/AlertDialog$Builder.setIcon (I)Landroid/app/AlertDialog$Builder;]
+      [19] pop
+      [20] aload_1 v1
+      [21] ldc #6
+        + Integer [2131034127]
+      [23] invokevirtual #42
+        + Methodref [android/app/AlertDialog$Builder.setTitle (I)Landroid/app/AlertDialog$Builder;]
+      [26] pop
+      [27] aload_1 v1
+      [28] ldc #4
+        + Integer [2131034116]
+      [30] new #29
+        + Class [com/flutesa/brainword/p]
+      [33] dup
+      [34] aload_0 v0
+      [35] lload_3 v3
+      [36] invokespecial #60
+        + Methodref [com/flutesa/brainword/p.<init> (Lcom/flutesa/brainword/ListToast;J)V]
+      [39] invokevirtual #41
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [42] pop
+      [43] aload_1 v1
+      [44] ldc #5
+        + Integer [2131034117]
+      [46] new #30
+        + Class [com/flutesa/brainword/q]
+      [49] dup
+      [50] aload_0 v0
+      [51] invokespecial #61
+        + Methodref [com/flutesa/brainword/q.<init> (Lcom/flutesa/brainword/ListToast;)V]
+      [54] invokevirtual #40
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [57] pop
+      [58] aload_1 v1
+      [59] invokevirtual #43
+        + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
+      [62] pop
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/flutesa/brainword/ListToast;I)V
+    Access flags: 0x1008
+      = static synthetic void a(com.flutesa.brainword.ListToast,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 38, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] dup
+      [2] astore_0 v0
+      [3] ldc #8
+        + Integer [2131099659]
+      [5] invokevirtual #51
+        + Methodref [com/flutesa/brainword/ListToast.findViewById (I)Landroid/view/View;]
+      [8] checkcast #23
+        + Class [android/widget/TextView]
+      [11] astore_2 v2
+      [12] aload_0 v0
+      [13] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [16] iload_1 v1
+      [17] invokeinterface #63
+        + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+      [22] pop
+      [23] aload_2 v2
+      [24] aload_0 v0
+      [25] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [28] iconst_2
+      [29] invokeinterface #62
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [34] invokevirtual #50
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [37] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/flutesa/brainword/ListToast;I)V
+    Access flags: 0x1008
+      = static synthetic void b(com.flutesa.brainword.ListToast,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 38, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] dup
+      [2] astore_0 v0
+      [3] ldc #8
+        + Integer [2131099659]
+      [5] invokevirtual #51
+        + Methodref [com/flutesa/brainword/ListToast.findViewById (I)Landroid/view/View;]
+      [8] checkcast #23
+        + Class [android/widget/TextView]
+      [11] astore_2 v2
+      [12] aload_0 v0
+      [13] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [16] iload_1 v1
+      [17] invokeinterface #63
+        + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+      [22] pop
+      [23] aload_2 v2
+      [24] aload_0 v0
+      [25] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [28] iconst_1
+      [29] invokeinterface #62
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [34] invokevirtual #50
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [37] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/flutesa/brainword/ListToast;)Landroid/database/Cursor;
+    Access flags: 0x1008
+      = static synthetic android.database.Cursor a(com.flutesa.brainword.ListToast)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #32
+        + Fieldref [com/flutesa/brainword/ListToast.a Landroid/database/Cursor;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/m
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.m extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemLongClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/widget/AdapterView$OnItemLongClickListener]
+  + Class [com/flutesa/brainword/ListToast]
+  + Class [com/flutesa/brainword/m]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/m.a Lcom/flutesa/brainword/ListToast;]
+  + Methodref [com/flutesa/brainword/ListToast.a (Lcom/flutesa/brainword/ListToast;J)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/ListToast;J)V]
+  + NameAndType [a Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;J)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [a]
+  + Utf8 [android/widget/AdapterView$OnItemLongClickListener]
+  + Utf8 [com/flutesa/brainword/ListToast]
+  + Utf8 [com/flutesa/brainword/m]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onItemLongClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListToast;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListToast a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListToast;)V
+    Access flags: 0x0
+      = m(com.flutesa.brainword.ListToast)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/m.a Lcom/flutesa/brainword/ListToast;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z
+    Access flags: 0x11
+      = public final boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 6, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/m.a Lcom/flutesa/brainword/ListToast;]
+      [4] lload v4
+      [6] invokestatic #6
+        + Methodref [com/flutesa/brainword/ListToast.a (Lcom/flutesa/brainword/ListToast;J)V]
+      [9] iconst_1
+      [10] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/n
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.n extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+  + Class [com/flutesa/brainword/ListToast]
+  + Class [com/flutesa/brainword/n]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/n.a Lcom/flutesa/brainword/ListToast;]
+  + Methodref [com/flutesa/brainword/ListToast.a (Lcom/flutesa/brainword/ListToast;I)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/flutesa/brainword/ListToast;I)V]
+  + NameAndType [a Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;I)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [a]
+  + Utf8 [android/widget/AdapterView$OnItemClickListener]
+  + Utf8 [com/flutesa/brainword/ListToast]
+  + Utf8 [com/flutesa/brainword/n]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onItemClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListToast;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListToast a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListToast;)V
+    Access flags: 0x0
+      = n(com.flutesa.brainword.ListToast)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/n.a Lcom/flutesa/brainword/ListToast;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    Access flags: 0x11
+      = public final void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 6, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/n.a Lcom/flutesa/brainword/ListToast;]
+      [4] iload_3 v3
+      [5] invokestatic #6
+        + Methodref [com/flutesa/brainword/ListToast.a (Lcom/flutesa/brainword/ListToast;I)V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/o
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.o extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+
+Constant Pool (count = 25):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+  + Class [com/flutesa/brainword/ListToast]
+  + Class [com/flutesa/brainword/o]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/o.a Lcom/flutesa/brainword/ListToast;]
+  + Methodref [com/flutesa/brainword/ListToast.b (Lcom/flutesa/brainword/ListToast;I)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/flutesa/brainword/ListToast;]
+  + NameAndType [b (Lcom/flutesa/brainword/ListToast;I)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;I)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [a]
+  + Utf8 [android/widget/AdapterView$OnItemClickListener]
+  + Utf8 [b]
+  + Utf8 [com/flutesa/brainword/ListToast]
+  + Utf8 [com/flutesa/brainword/o]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onItemClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListToast;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListToast a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListToast;)V
+    Access flags: 0x0
+      = o(com.flutesa.brainword.ListToast)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/flutesa/brainword/o.a Lcom/flutesa/brainword/ListToast;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    Access flags: 0x11
+      = public final void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 6, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/flutesa/brainword/o.a Lcom/flutesa/brainword/ListToast;]
+      [4] iload_3 v3
+      [5] invokestatic #6
+        + Methodref [com/flutesa/brainword/ListToast.b (Lcom/flutesa/brainword/ListToast;I)V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/p
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.p extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 64):
+  + String [_ID=]
+  + Class [android/content/ContentResolver]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [android/database/Cursor]
+  + Class [com/flutesa/brainword/ListToast]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/p]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Fieldref [com/flutesa/brainword/p.a Lcom/flutesa/brainword/ListToast;]
+  + Fieldref [com/flutesa/brainword/p.b J]
+  + Methodref [android/content/ContentResolver.delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [com/flutesa/brainword/ListToast.a (Lcom/flutesa/brainword/ListToast;)Landroid/database/Cursor;]
+  + Methodref [com/flutesa/brainword/ListToast.getContentResolver ()Landroid/content/ContentResolver;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.requery ()Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Lcom/flutesa/brainword/ListToast;)Landroid/database/Cursor;]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [a Lcom/flutesa/brainword/ListToast;]
+  + NameAndType [append (J)Ljava/lang/StringBuilder;]
+  + NameAndType [b J]
+  + NameAndType [delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
+  + NameAndType [requery ()Z]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Landroid/content/ContentResolver;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)Landroid/database/Cursor;]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;J)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [_ID=]
+  + Utf8 [a]
+  + Utf8 [android/content/ContentResolver]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [com/flutesa/brainword/ListToast]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/p]
+  + Utf8 [delete]
+  + Utf8 [getContentResolver]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [requery]
+  + Utf8 [toString]
+
+Fields (count = 2):
+  + Field:        a Lcom/flutesa/brainword/ListToast;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListToast a
+  + Field:        b J
+    Access flags: 0x1012
+      = private final synthetic long b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListToast;J)V
+    Access flags: 0x0
+      = p(com.flutesa.brainword.ListToast,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 4, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #11
+        + Fieldref [com/flutesa/brainword/p.a Lcom/flutesa/brainword/ListToast;]
+      [5] aload_0 v0
+      [6] lload_2 v2
+      [7] putfield #12
+        + Fieldref [com/flutesa/brainword/p.b J]
+      [10] aload_0 v0
+      [11] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 48, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/flutesa/brainword/p.a Lcom/flutesa/brainword/ListToast;]
+      [4] invokevirtual #15
+        + Methodref [com/flutesa/brainword/ListToast.getContentResolver ()Landroid/content/ContentResolver;]
+      [7] getstatic #10
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [10] new #9
+        + Class [java/lang/StringBuilder]
+      [13] dup
+      [14] ldc #1
+        + String [_ID=]
+      [16] invokespecial #17
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [19] aload_0 v0
+      [20] getfield #12
+        + Fieldref [com/flutesa/brainword/p.b J]
+      [23] invokevirtual #18
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [26] invokevirtual #19
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [29] aconst_null
+      [30] invokevirtual #13
+        + Methodref [android/content/ContentResolver.delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+      [33] pop
+      [34] aload_0 v0
+      [35] getfield #11
+        + Fieldref [com/flutesa/brainword/p.a Lcom/flutesa/brainword/ListToast;]
+      [38] invokestatic #14
+        + Methodref [com/flutesa/brainword/ListToast.a (Lcom/flutesa/brainword/ListToast;)Landroid/database/Cursor;]
+      [41] invokeinterface #20
+        + InterfaceMethodref [android/database/Cursor.requery ()Z]
+      [46] pop
+      [47] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/q
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.flutesa.brainword.q extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 19):
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/flutesa/brainword/q]
+  + Class [java/lang/Object]
+  + Fieldref [com/flutesa/brainword/q.a Lcom/flutesa/brainword/ListToast;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/flutesa/brainword/ListToast;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/flutesa/brainword/ListToast;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [com/flutesa/brainword/q]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/flutesa/brainword/ListToast;
+    Access flags: 0x1010
+      = final synthetic com.flutesa.brainword.ListToast a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/flutesa/brainword/ListToast;)V
+    Access flags: 0x0
+      = q(com.flutesa.brainword.ListToast)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [com/flutesa/brainword/q.a Lcom/flutesa/brainword/ListToast;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x11
+      = public final void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/r
+  Superclass:    android/database/sqlite/SQLiteOpenHelper
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.flutesa.brainword.r extends android.database.sqlite.SQLiteOpenHelper
+
+Interfaces (count = 1):
+  + Class [android/provider/BaseColumns]
+
+Constant Pool (count = 130):
+  + String [CREATE TABLE words (_id INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT, translate TEXT);]
+  + String [DROP TABLE IF EXISTS words]
+  + String [angle]
+  + String [attendance]
+  + String [binding]
+  + String [braces]
+  + String [chalk]
+  + String [cover]
+  + String [dean]
+  + String [equation]
+  + String [faculty]
+  + String [handbook]
+  + String [inequality]
+  + String [infinity]
+  + String [pamphlet]
+  + String [ruler]
+  + String [scissors]
+  + String [snowflake]
+  + String [sophomore]
+  + String [term]
+  + String [translate]
+  + String [translation]
+  + String [word]
+  + String [words]
+  + String [words.db]
+  + String [wrist]
+  + String [бесконечность]
+  + String [брошюра]
+  + String [второкурсник]
+  + String [декан]
+  + String [запястье]
+  + String [линейка]
+  + String [мел]
+  + String [неравенство]
+  + String [ножницы]
+  + String [обложка]
+  + String [перевод]
+  + String [переплёт]
+  + String [посещаемость]
+  + String [руководство]
+  + String [семестр]
+  + String [снежинка]
+  + String [угол]
+  + String [уравнение]
+  + String [факультет]
+  + String [фигурные скобки]
+  + Class [android/content/ContentValues]
+  + Class [android/database/sqlite/SQLiteDatabase]
+  + Class [android/database/sqlite/SQLiteOpenHelper]
+  + Class [android/provider/BaseColumns]
+  + Class [com/flutesa/brainword/r]
+  + Methodref [android/content/ContentValues.<init> ()V]
+  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+  + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Methodref [com/flutesa/brainword/r.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + NameAndType [execSQL (Ljava/lang/String;)V]
+  + NameAndType [insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + NameAndType [onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;II)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + Utf8 [<init>]
+  + Utf8 [CREATE TABLE words (_id INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT, translate TEXT);]
+  + Utf8 [Code]
+  + Utf8 [DROP TABLE IF EXISTS words]
+  + Utf8 [android/content/ContentValues]
+  + Utf8 [android/database/sqlite/SQLiteDatabase]
+  + Utf8 [android/database/sqlite/SQLiteOpenHelper]
+  + Utf8 [android/provider/BaseColumns]
+  + Utf8 [angle]
+  + Utf8 [attendance]
+  + Utf8 [binding]
+  + Utf8 [braces]
+  + Utf8 [chalk]
+  + Utf8 [com/flutesa/brainword/r]
+  + Utf8 [cover]
+  + Utf8 [dean]
+  + Utf8 [equation]
+  + Utf8 [execSQL]
+  + Utf8 [faculty]
+  + Utf8 [handbook]
+  + Utf8 [inequality]
+  + Utf8 [infinity]
+  + Utf8 [insert]
+  + Utf8 [onCreate]
+  + Utf8 [onUpgrade]
+  + Utf8 [pamphlet]
+  + Utf8 [put]
+  + Utf8 [ruler]
+  + Utf8 [scissors]
+  + Utf8 [snowflake]
+  + Utf8 [sophomore]
+  + Utf8 [term]
+  + Utf8 [translate]
+  + Utf8 [translation]
+  + Utf8 [word]
+  + Utf8 [words]
+  + Utf8 [words.db]
+  + Utf8 [wrist]
+  + Utf8 [бесконечность]
+  + Utf8 [брошюра]
+  + Utf8 [второкурсник]
+  + Utf8 [декан]
+  + Utf8 [запястье]
+  + Utf8 [линейка]
+  + Utf8 [мел]
+  + Utf8 [неравенство]
+  + Utf8 [ножницы]
+  + Utf8 [обложка]
+  + Utf8 [перевод]
+  + Utf8 [переплёт]
+  + Utf8 [посещаемость]
+  + Utf8 [руководство]
+  + Utf8 [семестр]
+  + Utf8 [снежинка]
+  + Utf8 [угол]
+  + Utf8 [уравнение]
+  + Utf8 [факультет]
+  + Utf8 [фигурные скобки]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public r(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] ldc #25
+        + String [words.db]
+      [4] aconst_null
+      [5] iconst_1
+      [6] invokespecial #56
+        + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
+    Access flags: 0x11
+      = public final void onCreate(android.database.sqlite.SQLiteDatabase)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 535, locals = 3, stack = 4):
+      [0] aload_1 v1
+      [1] ldc #1
+        + String [CREATE TABLE words (_id INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT, translate TEXT);]
+      [3] invokevirtual #54
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [6] new #47
+        + Class [android/content/ContentValues]
+      [9] dup
+      [10] invokespecial #52
+        + Methodref [android/content/ContentValues.<init> ()V]
+      [13] dup
+      [14] astore_2 v2
+      [15] ldc #23
+        + String [word]
+      [17] ldc #7
+        + String [chalk]
+      [19] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [22] aload_2 v2
+      [23] ldc #21
+        + String [translate]
+      [25] ldc #33
+        + String [мел]
+      [27] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [30] aload_1 v1
+      [31] ldc #24
+        + String [words]
+      [33] ldc #23
+        + String [word]
+      [35] aload_2 v2
+      [36] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [39] pop2
+      [40] aload_2 v2
+      [41] ldc #23
+        + String [word]
+      [43] ldc #16
+        + String [ruler]
+      [45] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [48] aload_2 v2
+      [49] ldc #21
+        + String [translate]
+      [51] ldc #32
+        + String [линейка]
+      [53] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [56] aload_1 v1
+      [57] ldc #24
+        + String [words]
+      [59] ldc #23
+        + String [word]
+      [61] aload_2 v2
+      [62] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [65] pop2
+      [66] aload_2 v2
+      [67] ldc #23
+        + String [word]
+      [69] ldc #17
+        + String [scissors]
+      [71] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [74] aload_2 v2
+      [75] ldc #21
+        + String [translate]
+      [77] ldc #35
+        + String [ножницы]
+      [79] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [82] aload_1 v1
+      [83] ldc #24
+        + String [words]
+      [85] ldc #23
+        + String [word]
+      [87] aload_2 v2
+      [88] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [91] pop2
+      [92] aload_2 v2
+      [93] ldc #23
+        + String [word]
+      [95] ldc #10
+        + String [equation]
+      [97] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [100] aload_2 v2
+      [101] ldc #21
+        + String [translate]
+      [103] ldc #44
+        + String [уравнение]
+      [105] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [108] aload_1 v1
+      [109] ldc #24
+        + String [words]
+      [111] ldc #23
+        + String [word]
+      [113] aload_2 v2
+      [114] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [117] pop2
+      [118] aload_2 v2
+      [119] ldc #23
+        + String [word]
+      [121] ldc #3
+        + String [angle]
+      [123] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [126] aload_2 v2
+      [127] ldc #21
+        + String [translate]
+      [129] ldc #43
+        + String [угол]
+      [131] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [134] aload_1 v1
+      [135] ldc #24
+        + String [words]
+      [137] ldc #23
+        + String [word]
+      [139] aload_2 v2
+      [140] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [143] pop2
+      [144] aload_2 v2
+      [145] ldc #23
+        + String [word]
+      [147] ldc #14
+        + String [infinity]
+      [149] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [152] aload_2 v2
+      [153] ldc #21
+        + String [translate]
+      [155] ldc #27
+        + String [бесконечность]
+      [157] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [160] aload_1 v1
+      [161] ldc #24
+        + String [words]
+      [163] ldc #23
+        + String [word]
+      [165] aload_2 v2
+      [166] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [169] pop2
+      [170] aload_2 v2
+      [171] ldc #23
+        + String [word]
+      [173] ldc #13
+        + String [inequality]
+      [175] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [178] aload_2 v2
+      [179] ldc #21
+        + String [translate]
+      [181] ldc #34
+        + String [неравенство]
+      [183] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [186] aload_1 v1
+      [187] ldc #24
+        + String [words]
+      [189] ldc #23
+        + String [word]
+      [191] aload_2 v2
+      [192] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [195] pop2
+      [196] aload_2 v2
+      [197] ldc #23
+        + String [word]
+      [199] ldc #4
+        + String [attendance]
+      [201] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [204] aload_2 v2
+      [205] ldc #21
+        + String [translate]
+      [207] ldc #39
+        + String [посещаемость]
+      [209] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [212] aload_1 v1
+      [213] ldc #24
+        + String [words]
+      [215] ldc #23
+        + String [word]
+      [217] aload_2 v2
+      [218] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [221] pop2
+      [222] aload_2 v2
+      [223] ldc #23
+        + String [word]
+      [225] ldc #19
+        + String [sophomore]
+      [227] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [230] aload_2 v2
+      [231] ldc #21
+        + String [translate]
+      [233] ldc #29
+        + String [второкурсник]
+      [235] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [238] aload_1 v1
+      [239] ldc #24
+        + String [words]
+      [241] ldc #23
+        + String [word]
+      [243] aload_2 v2
+      [244] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [247] pop2
+      [248] aload_2 v2
+      [249] ldc #23
+        + String [word]
+      [251] ldc #11
+        + String [faculty]
+      [253] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [256] aload_2 v2
+      [257] ldc #21
+        + String [translate]
+      [259] ldc #45
+        + String [факультет]
+      [261] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [264] aload_1 v1
+      [265] ldc #24
+        + String [words]
+      [267] ldc #23
+        + String [word]
+      [269] aload_2 v2
+      [270] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [273] pop2
+      [274] aload_2 v2
+      [275] ldc #23
+        + String [word]
+      [277] ldc #9
+        + String [dean]
+      [279] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [282] aload_2 v2
+      [283] ldc #21
+        + String [translate]
+      [285] ldc #30
+        + String [декан]
+      [287] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [290] aload_1 v1
+      [291] ldc #24
+        + String [words]
+      [293] ldc #23
+        + String [word]
+      [295] aload_2 v2
+      [296] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [299] pop2
+      [300] aload_2 v2
+      [301] ldc #23
+        + String [word]
+      [303] ldc #20
+        + String [term]
+      [305] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [308] aload_2 v2
+      [309] ldc #21
+        + String [translate]
+      [311] ldc #41
+        + String [семестр]
+      [313] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [316] aload_1 v1
+      [317] ldc #24
+        + String [words]
+      [319] ldc #23
+        + String [word]
+      [321] aload_2 v2
+      [322] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [325] pop2
+      [326] aload_2 v2
+      [327] ldc #23
+        + String [word]
+      [329] ldc #22
+        + String [translation]
+      [331] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [334] aload_2 v2
+      [335] ldc #21
+        + String [translate]
+      [337] ldc #37
+        + String [перевод]
+      [339] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [342] aload_1 v1
+      [343] ldc #24
+        + String [words]
+      [345] ldc #23
+        + String [word]
+      [347] aload_2 v2
+      [348] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [351] pop2
+      [352] aload_2 v2
+      [353] ldc #23
+        + String [word]
+      [355] ldc #12
+        + String [handbook]
+      [357] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [360] aload_2 v2
+      [361] ldc #21
+        + String [translate]
+      [363] ldc #40
+        + String [руководство]
+      [365] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [368] aload_1 v1
+      [369] ldc #24
+        + String [words]
+      [371] ldc #23
+        + String [word]
+      [373] aload_2 v2
+      [374] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [377] pop2
+      [378] aload_2 v2
+      [379] ldc #23
+        + String [word]
+      [381] ldc #8
+        + String [cover]
+      [383] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [386] aload_2 v2
+      [387] ldc #21
+        + String [translate]
+      [389] ldc #36
+        + String [обложка]
+      [391] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [394] aload_1 v1
+      [395] ldc #24
+        + String [words]
+      [397] ldc #23
+        + String [word]
+      [399] aload_2 v2
+      [400] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [403] pop2
+      [404] aload_2 v2
+      [405] ldc #23
+        + String [word]
+      [407] ldc #18
+        + String [snowflake]
+      [409] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [412] aload_2 v2
+      [413] ldc #21
+        + String [translate]
+      [415] ldc #42
+        + String [снежинка]
+      [417] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [420] aload_1 v1
+      [421] ldc #24
+        + String [words]
+      [423] ldc #23
+        + String [word]
+      [425] aload_2 v2
+      [426] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [429] pop2
+      [430] aload_2 v2
+      [431] ldc #23
+        + String [word]
+      [433] ldc #26
+        + String [wrist]
+      [435] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [438] aload_2 v2
+      [439] ldc #21
+        + String [translate]
+      [441] ldc #31
+        + String [запястье]
+      [443] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [446] aload_1 v1
+      [447] ldc #24
+        + String [words]
+      [449] ldc #23
+        + String [word]
+      [451] aload_2 v2
+      [452] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [455] pop2
+      [456] aload_2 v2
+      [457] ldc #23
+        + String [word]
+      [459] ldc #6
+        + String [braces]
+      [461] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [464] aload_2 v2
+      [465] ldc #21
+        + String [translate]
+      [467] ldc #46
+        + String [фигурные скобки]
+      [469] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [472] aload_1 v1
+      [473] ldc #24
+        + String [words]
+      [475] ldc #23
+        + String [word]
+      [477] aload_2 v2
+      [478] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [481] pop2
+      [482] aload_2 v2
+      [483] ldc #23
+        + String [word]
+      [485] ldc #5
+        + String [binding]
+      [487] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [490] aload_2 v2
+      [491] ldc #21
+        + String [translate]
+      [493] ldc #38
+        + String [переплёт]
+      [495] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [498] aload_1 v1
+      [499] ldc #24
+        + String [words]
+      [501] ldc #23
+        + String [word]
+      [503] aload_2 v2
+      [504] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [507] pop2
+      [508] aload_2 v2
+      [509] ldc #23
+        + String [word]
+      [511] ldc #15
+        + String [pamphlet]
+      [513] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [516] aload_2 v2
+      [517] ldc #21
+        + String [translate]
+      [519] ldc #28
+        + String [брошюра]
+      [521] invokevirtual #53
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [524] aload_1 v1
+      [525] ldc #24
+        + String [words]
+      [527] ldc #23
+        + String [word]
+      [529] aload_2 v2
+      [530] invokevirtual #55
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [533] pop2
+      [534] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
+    Access flags: 0x11
+      = public final void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 4, stack = 2):
+      [0] aload_1 v1
+      [1] ldc #2
+        + String [DROP TABLE IF EXISTS words]
+      [3] invokevirtual #54
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokevirtual #57
+        + Methodref [com/flutesa/brainword/r.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/flutesa/brainword/WordProvider
+  Superclass:    android/content/ContentProvider
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.flutesa.brainword.WordProvider extends android.content.ContentProvider
+
+Interfaces (count = 0):
+
+Constant Pool (count = 160):
+  + String [Failed to insert row into ]
+  + String [_id]
+  + String [com.flutesa.brainword.wordprovider]
+  + String [com.flutesa.brainword.wordrovider]
+  + String [content://com.flutesa.brainword.wordprovider/word]
+  + String [translate]
+  + String [word]
+  + String [words]
+  + String [words/#]
+  + Class [android/content/ContentProvider]
+  + Class [android/content/ContentResolver]
+  + Class [android/content/ContentUris]
+  + Class [android/content/ContentValues]
+  + Class [android/content/Context]
+  + Class [android/content/UriMatcher]
+  + Class [android/database/Cursor]
+  + Class [android/database/SQLException]
+  + Class [android/database/sqlite/SQLiteDatabase]
+  + Class [android/net/Uri]
+  + Class [android/text/TextUtils]
+  + Class [com/flutesa/brainword/WordProvider]
+  + Class [com/flutesa/brainword/r]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/util/HashMap]
+  + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+  + Fieldref [com/flutesa/brainword/WordProvider.b Landroid/content/UriMatcher;]
+  + Fieldref [com/flutesa/brainword/WordProvider.c Ljava/util/HashMap;]
+  + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+  + Methodref [android/content/ContentProvider.<init> ()V]
+  + Methodref [android/content/ContentResolver.notifyChange (Landroid/net/Uri;Landroid/database/ContentObserver;)V]
+  + Methodref [android/content/ContentUris.withAppendedId (Landroid/net/Uri;J)Landroid/net/Uri;]
+  + Methodref [android/content/ContentValues.<init> (Landroid/content/ContentValues;)V]
+  + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+  + Methodref [android/content/UriMatcher.<init> (I)V]
+  + Methodref [android/content/UriMatcher.addURI (Ljava/lang/String;Ljava/lang/String;I)V]
+  + Methodref [android/database/SQLException.<init> (Ljava/lang/String;)V]
+  + Methodref [android/database/sqlite/SQLiteDatabase.delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [android/database/sqlite/SQLiteDatabase.update (Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [android/text/TextUtils.isEmpty (Ljava/lang/CharSequence;)Z]
+  + Methodref [com/flutesa/brainword/WordProvider.getContext ()Landroid/content/Context;]
+  + Methodref [com/flutesa/brainword/r.<init> (Landroid/content/Context;)V]
+  + Methodref [com/flutesa/brainword/r.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/util/HashMap.<init> ()V]
+  + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [android/database/Cursor.setNotificationUri (Landroid/content/ContentResolver;Landroid/net/Uri;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Landroid/content/ContentValues;)V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [addURI (Ljava/lang/String;Ljava/lang/String;I)V]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Landroid/content/UriMatcher;]
+  + NameAndType [c Ljava/util/HashMap;]
+  + NameAndType [d Landroid/database/sqlite/SQLiteDatabase;]
+  + NameAndType [delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
+  + NameAndType [getContext ()Landroid/content/Context;]
+  + NameAndType [getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + NameAndType [insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + NameAndType [isEmpty (Ljava/lang/CharSequence;)Z]
+  + NameAndType [notifyChange (Landroid/net/Uri;Landroid/database/ContentObserver;)V]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [setNotificationUri (Landroid/content/ContentResolver;Landroid/net/Uri;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [update (Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + NameAndType [withAppendedId (Landroid/net/Uri;J)Landroid/net/Uri;]
+  + Utf8 [()Landroid/content/ContentResolver;]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/database/sqlite/SQLiteDatabase;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/ContentResolver;Landroid/net/Uri;)V]
+  + Utf8 [(Landroid/content/ContentValues;)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/net/Uri;)Ljava/lang/String;]
+  + Utf8 [(Landroid/net/Uri;J)Landroid/net/Uri;]
+  + Utf8 [(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + Utf8 [(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Landroid/net/Uri;Landroid/database/ContentObserver;)V]
+  + Utf8 [(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [(Ljava/lang/CharSequence;)Z]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;I)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Failed to insert row into ]
+  + Utf8 [Landroid/content/UriMatcher;]
+  + Utf8 [Landroid/database/sqlite/SQLiteDatabase;]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Ljava/util/HashMap;]
+  + Utf8 [StackMapTable]
+  + Utf8 [_id]
+  + Utf8 [a]
+  + Utf8 [addURI]
+  + Utf8 [android/content/ContentProvider]
+  + Utf8 [android/content/ContentResolver]
+  + Utf8 [android/content/ContentUris]
+  + Utf8 [android/content/ContentValues]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/UriMatcher]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/database/SQLException]
+  + Utf8 [android/database/sqlite/SQLiteDatabase]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/text/TextUtils]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com.flutesa.brainword.wordprovider]
+  + Utf8 [com.flutesa.brainword.wordrovider]
+  + Utf8 [com/flutesa/brainword/WordProvider]
+  + Utf8 [com/flutesa/brainword/r]
+  + Utf8 [content://com.flutesa.brainword.wordprovider/word]
+  + Utf8 [d]
+  + Utf8 [delete]
+  + Utf8 [getContentResolver]
+  + Utf8 [getContext]
+  + Utf8 [getType]
+  + Utf8 [getWritableDatabase]
+  + Utf8 [insert]
+  + Utf8 [isEmpty]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/util/HashMap]
+  + Utf8 [notifyChange]
+  + Utf8 [onCreate]
+  + Utf8 [parse]
+  + Utf8 [put]
+  + Utf8 [query]
+  + Utf8 [setNotificationUri]
+  + Utf8 [toString]
+  + Utf8 [translate]
+  + Utf8 [update]
+  + Utf8 [withAppendedId]
+  + Utf8 [word]
+  + Utf8 [words]
+  + Utf8 [words/#]
+
+Fields (count = 4):
+  + Field:        a Landroid/net/Uri;
+    Access flags: 0x19
+      = public static final android.net.Uri a
+  + Field:        b Landroid/content/UriMatcher;
+    Access flags: 0x1a
+      = private static final android.content.UriMatcher b
+  + Field:        c Ljava/util/HashMap;
+    Access flags: 0xa
+      = private static java.util.HashMap c
+  + Field:        d Landroid/database/sqlite/SQLiteDatabase;
+    Access flags: 0x2
+      = private android.database.sqlite.SQLiteDatabase d
+
+Methods (count = 8):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 81, locals = 0, stack = 4):
+      [0] ldc #5
+        + String [content://com.flutesa.brainword.wordprovider/word]
+      [2] invokestatic #42
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [5] putstatic #26
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [8] new #15
+        + Class [android/content/UriMatcher]
+      [11] dup
+      [12] iconst_m1
+      [13] invokespecial #35
+        + Methodref [android/content/UriMatcher.<init> (I)V]
+      [16] dup
+      [17] putstatic #27
+        + Fieldref [com/flutesa/brainword/WordProvider.b Landroid/content/UriMatcher;]
+      [20] ldc #3
+        + String [com.flutesa.brainword.wordprovider]
+      [22] ldc #8
+        + String [words]
+      [24] iconst_1
+      [25] invokevirtual #36
+        + Methodref [android/content/UriMatcher.addURI (Ljava/lang/String;Ljava/lang/String;I)V]
+      [28] getstatic #27
+        + Fieldref [com/flutesa/brainword/WordProvider.b Landroid/content/UriMatcher;]
+      [31] ldc #4
+        + String [com.flutesa.brainword.wordrovider]
+      [33] ldc #9
+        + String [words/#]
+      [35] iconst_2
+      [36] invokevirtual #36
+        + Methodref [android/content/UriMatcher.addURI (Ljava/lang/String;Ljava/lang/String;I)V]
+      [39] new #25
+        + Class [java/util/HashMap]
+      [42] dup
+      [43] invokespecial #50
+        + Methodref [java/util/HashMap.<init> ()V]
+      [46] dup
+      [47] putstatic #28
+        + Fieldref [com/flutesa/brainword/WordProvider.c Ljava/util/HashMap;]
+      [50] ldc #2
+        + String [_id]
+      [52] ldc #2
+        + String [_id]
+      [54] invokevirtual #51
+        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [57] pop
+      [58] getstatic #28
+        + Fieldref [com/flutesa/brainword/WordProvider.c Ljava/util/HashMap;]
+      [61] ldc #7
+        + String [word]
+      [63] ldc #7
+        + String [word]
+      [65] invokevirtual #51
+        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [68] pop
+      [69] getstatic #28
+        + Fieldref [com/flutesa/brainword/WordProvider.c Ljava/util/HashMap;]
+      [72] ldc #6
+        + String [translate]
+      [74] ldc #6
+        + String [translate]
+      [76] invokevirtual #51
+        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [79] pop
+      [80] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public WordProvider()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [android/content/ContentProvider.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate()Z
+    Access flags: 0x1
+      = public boolean onCreate()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 29, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] new #22
+        + Class [com/flutesa/brainword/r]
+      [4] dup
+      [5] aload_0 v0
+      [6] invokevirtual #44
+        + Methodref [com/flutesa/brainword/WordProvider.getContext ()Landroid/content/Context;]
+      [9] invokespecial #45
+        + Methodref [com/flutesa/brainword/r.<init> (Landroid/content/Context;)V]
+      [12] invokevirtual #46
+        + Methodref [com/flutesa/brainword/r.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+      [15] putfield #29
+        + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+      [18] aload_0 v0
+      [19] getfield #29
+        + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+      [22] ifnonnull +5 (target=27)
+      [25] iconst_0
+      [26] ireturn
+      [27] iconst_1
+      [28] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [27] Var: ..., Stack: (empty)
+        - [28] Var: ..., Stack: [i]
+  + Method:       query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    Access flags: 0x1
+      = public android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 53, locals = 6, stack = 8):
+      [0] aload v5
+      [2] invokestatic #43
+        + Methodref [android/text/TextUtils.isEmpty (Ljava/lang/CharSequence;)Z]
+      [5] ifeq +10 (target=15)
+      [8] ldc #7
+        + String [word]
+      [10] astore v5
+      [12] goto +7 (target=19)
+      [15] ldc #6
+        + String [translate]
+      [17] astore v5
+      [19] aload_0 v0
+      [20] getfield #29
+        + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+      [23] ldc #8
+        + String [words]
+      [25] aload_2 v2
+      [26] aload_3 v3
+      [27] aload v4
+      [29] aconst_null
+      [30] aconst_null
+      [31] aload v5
+      [33] invokevirtual #40
+        + Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+      [36] dup
+      [37] astore_2 v2
+      [38] aload_0 v0
+      [39] invokevirtual #44
+        + Methodref [com/flutesa/brainword/WordProvider.getContext ()Landroid/content/Context;]
+      [42] invokevirtual #34
+        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+      [45] aload_1 v1
+      [46] invokeinterface #52
+        + InterfaceMethodref [android/database/Cursor.setNotificationUri (Landroid/content/ContentResolver;Landroid/net/Uri;)V]
+      [51] aload_2 v2
+      [52] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [15] Var: ..., Stack: (empty)
+        - [19] Var: ...[a:java/lang/String], Stack: (empty)
+  + Method:       insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    Access flags: 0x1
+      = public android.net.Uri insert(android.net.Uri,android.content.ContentValues)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 74, locals = 5, stack = 5):
+      [0] new #13
+        + Class [android/content/ContentValues]
+      [3] dup
+      [4] aload_2 v2
+      [5] invokespecial #33
+        + Methodref [android/content/ContentValues.<init> (Landroid/content/ContentValues;)V]
+      [8] astore_2 v2
+      [9] aload_0 v0
+      [10] getfield #29
+        + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+      [13] ldc #8
+        + String [words]
+      [15] ldc #7
+        + String [word]
+      [17] aload_2 v2
+      [18] invokevirtual #39
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [21] dup2
+      [22] lstore_3 v3
+      [23] lconst_0
+      [24] lcmp
+      [25] ifle +25 (target=50)
+      [28] getstatic #26
+        + Fieldref [com/flutesa/brainword/WordProvider.a Landroid/net/Uri;]
+      [31] lload_3 v3
+      [32] invokestatic #32
+        + Methodref [android/content/ContentUris.withAppendedId (Landroid/net/Uri;J)Landroid/net/Uri;]
+      [35] astore_1 v1
+      [36] aload_0 v0
+      [37] invokevirtual #44
+        + Methodref [com/flutesa/brainword/WordProvider.getContext ()Landroid/content/Context;]
+      [40] invokevirtual #34
+        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+      [43] aload_1 v1
+      [44] aconst_null
+      [45] invokevirtual #31
+        + Methodref [android/content/ContentResolver.notifyChange (Landroid/net/Uri;Landroid/database/ContentObserver;)V]
+      [48] aload_1 v1
+      [49] areturn
+      [50] new #17
+        + Class [android/database/SQLException]
+      [53] dup
+      [54] new #24
+        + Class [java/lang/StringBuilder]
+      [57] dup
+      [58] ldc #1
+        + String [Failed to insert row into ]
+      [60] invokespecial #47
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [63] aload_1 v1
+      [64] invokevirtual #48
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [67] invokevirtual #49
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [70] invokespecial #37
+        + Methodref [android/database/SQLException.<init> (Ljava/lang/String;)V]
+      [73] athrow
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [50] Var: ...[a:android/content/ContentValues][l], Stack: (empty)
+  + Method:       delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
+    Access flags: 0x1
+      = public int delete(android.net.Uri,java.lang.String,java.lang.String[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #29
+        + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+      [4] ldc #8
+        + String [words]
+      [6] aload_2 v2
+      [7] aload_3 v3
+      [8] invokevirtual #38
+        + Methodref [android/database/sqlite/SQLiteDatabase.delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+      [11] istore_2 v2
+      [12] aload_0 v0
+      [13] invokevirtual #44
+        + Methodref [com/flutesa/brainword/WordProvider.getContext ()Landroid/content/Context;]
+      [16] invokevirtual #34
+        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+      [19] aload_1 v1
+      [20] aconst_null
+      [21] invokevirtual #31
+        + Methodref [android/content/ContentResolver.notifyChange (Landroid/net/Uri;Landroid/database/ContentObserver;)V]
+      [24] iload_2 v2
+      [25] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    Access flags: 0x1
+      = public int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 28, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #29
+        + Fieldref [com/flutesa/brainword/WordProvider.d Landroid/database/sqlite/SQLiteDatabase;]
+      [4] ldc #8
+        + String [words]
+      [6] aload_2 v2
+      [7] aload_3 v3
+      [8] aload v4
+      [10] invokevirtual #41
+        + Methodref [android/database/sqlite/SQLiteDatabase.update (Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I]
+      [13] istore_2 v2
+      [14] aload_0 v0
+      [15] invokevirtual #44
+        + Methodref [com/flutesa/brainword/WordProvider.getContext ()Landroid/content/Context;]
+      [18] invokevirtual #34
+        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+      [21] aload_1 v1
+      [22] aconst_null
+      [23] invokevirtual #31
+        + Methodref [android/content/ContentResolver.notifyChange (Landroid/net/Uri;Landroid/database/ContentObserver;)V]
+      [26] iload_2 v2
+      [27] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getType(Landroid/net/Uri;)Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String getType(android.net.Uri)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 2, stack = 1):
+      [0] aconst_null
+      [1] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
