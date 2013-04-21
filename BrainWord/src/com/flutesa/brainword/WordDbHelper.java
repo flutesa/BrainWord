@@ -34,83 +34,83 @@ public class WordDbHelper extends SQLiteOpenHelper implements BaseColumns {
 		ContentValues values = new ContentValues();
 
 		values.put(WORD, "chalk");
-		values.put(TRANSLATE, "мел");
+		values.put(TRANSLATE, "РјРµР»");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "ruler");
-		values.put(TRANSLATE, "линейка");
+		values.put(TRANSLATE, "Р»РёРЅРµР№РєР°");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "scissors");
-		values.put(TRANSLATE, "ножницы");
+		values.put(TRANSLATE, "РЅРѕР¶РЅРёС†С‹");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "equation");
-		values.put(TRANSLATE, "уравнение");
+		values.put(TRANSLATE, "СѓСЂР°РІРЅРµРЅРёРµ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "angle");
-		values.put(TRANSLATE, "угол");
+		values.put(TRANSLATE, "СѓРіРѕР»");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "infinity");
-		values.put(TRANSLATE, "бесконечность");
+		values.put(TRANSLATE, "Р±РµСЃРєРѕРЅРµС‡РЅРѕСЃС‚СЊ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "inequality");
-		values.put(TRANSLATE, "неравенство");
+		values.put(TRANSLATE, "РЅРµСЂР°РІРµРЅСЃС‚РІРѕ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "attendance");
-		values.put(TRANSLATE, "посещаемость");
+		values.put(TRANSLATE, "РїРѕСЃРµС‰Р°РµРјРѕСЃС‚СЊ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "sophomore");
-		values.put(TRANSLATE, "второкурсник");
+		values.put(TRANSLATE, "РІС‚РѕСЂРѕРєСѓСЂСЃРЅРёРє");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "faculty");
-		values.put(TRANSLATE, "факультет");
+		values.put(TRANSLATE, "С„Р°РєСѓР»СЊС‚РµС‚");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "dean");
-		values.put(TRANSLATE, "декан");
+		values.put(TRANSLATE, "РґРµРєР°РЅ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "term");
-		values.put(TRANSLATE, "семестр");
+		values.put(TRANSLATE, "СЃРµРјРµСЃС‚СЂ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "translation");
-		values.put(TRANSLATE, "перевод");
+		values.put(TRANSLATE, "РїРµСЂРµРІРѕРґ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "handbook");
-		values.put(TRANSLATE, "руководство");
+		values.put(TRANSLATE, "СЂСѓРєРѕРІРѕРґСЃС‚РІРѕ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "cover");
-		values.put(TRANSLATE, "обложка");
+		values.put(TRANSLATE, "РѕР±Р»РѕР¶РєР°");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "snowflake");
-		values.put(TRANSLATE, "снежинка");
+		values.put(TRANSLATE, "СЃРЅРµР¶РёРЅРєР°");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "wrist");
-		values.put(TRANSLATE, "запЯстье");
+		values.put(TRANSLATE, "Р·Р°РїРЇСЃС‚СЊРµ");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "braces");
-		values.put(TRANSLATE, "фигурные скобки");
+		values.put(TRANSLATE, "С„РёРіСѓСЂРЅС‹Рµ СЃРєРѕР±РєРё");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "binding");
-		values.put(TRANSLATE, "переплЮт");
+		values.put(TRANSLATE, "РїРµСЂРµРїР»Р®С‚");
 		db.insert(TABLE_NAME, WORD, values);
 
 		values.put(WORD, "pamphlet");
-		values.put(TRANSLATE, "брошюра");
+		values.put(TRANSLATE, "Р±СЂРѕС€СЋСЂР°");
 		db.insert(TABLE_NAME, WORD, values);
 
 	}
